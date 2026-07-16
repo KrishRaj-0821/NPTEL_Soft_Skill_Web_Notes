@@ -6,7 +6,7 @@ const lecturesData = [
     id: 1,
     week: 1,
     title: "Introduction to Soft Skills",
-    youtubeId: "vEpzXQ1994o",
+    youtubeId: "DUlsNJtg2L8",
     objectives: [
       "Understand Soft Skills as an 'umbrella term' for personality and social graces.",
       "Distinguish between Hard Skills (academic/technical) and Soft Skills (behavioral/interpersonal).",
