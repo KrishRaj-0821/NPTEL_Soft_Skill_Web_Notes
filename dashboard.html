@@ -309,8 +309,8 @@
                 weeks[lec.week].push(lec);
             });
 
-            // Inject accordions for weeks 1 to 8
-            Object.keys(weeks).forEach(wNum => {
+            // Inject accordions for weeks 1 to 12 in correct numeric order
+            Object.keys(weeks).sort((a, b) => a - b).forEach(wNum => {
                 const weekHeading = `Week ${wNum}`;
                 const weekLecs = weeks[wNum];
                 
