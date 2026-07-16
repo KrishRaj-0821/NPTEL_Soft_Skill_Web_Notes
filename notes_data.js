@@ -335,7 +335,7 @@ const lecturesData = [
     "id": 8,
     "week": 2,
     "title": "Telephonic Communication Skills Part I",
-    "youtubeId": "J2a4o9v4sA8",
+    "youtubeId": "",
     "objectives": [
       "Understand the unique challenges of voice-only communication.",
       "Analyze the importance of vocal tone, pitch, and speed over the telephone.",
@@ -382,7 +382,7 @@ const lecturesData = [
     "id": 9,
     "week": 2,
     "title": "Telephonic Communication Skills Part II",
-    "youtubeId": "K2a4_s8wA5Q",
+    "youtubeId": "",
     "objectives": [
       "Master call handling skills like putting calls on hold and transferring calls.",
       "Understand the ethics of dealing with angry callers.",
@@ -429,7 +429,7 @@ const lecturesData = [
     "id": 10,
     "week": 2,
     "title": "Communicating Without Words",
-    "youtubeId": "L2a4_v8wA9P",
+    "youtubeId": "",
     "objectives": [
       "Understand the definition of Kinesics (Body Language).",
       "Analyze the role of gestures, postures, and eye contact (Oculesics).",
@@ -476,7 +476,7 @@ const lecturesData = [
     "id": 11,
     "week": 2,
     "title": "Paralanguage",
-    "youtubeId": "M2a4_w8wA0Q",
+    "youtubeId": "",
     "objectives": [
       "Understand Paralanguage (how something is said, rather than what is said).",
       "Analyze the zones of personal space as defined by Edward T. Hall (Proxemics).",
@@ -523,7 +523,7 @@ const lecturesData = [
     "id": 12,
     "week": 3,
     "title": "Proxemics",
-    "youtubeId": "N2a4_w8wA01",
+    "youtubeId": "",
     "objectives": [
       "Explore the cultural differences in touch communication (Haptics).",
       "Understand safe and professional touch boundaries.",
@@ -570,7 +570,7 @@ const lecturesData = [
     "id": 13,
     "week": 3,
     "title": "Haptics: The Language of Touch",
-    "youtubeId": "O2a4_w8wA02",
+    "youtubeId": "",
     "objectives": [
       "Identify the major barriers causing communication breakdown.",
       "Analyze physiological and environmental barriers.",
@@ -617,7 +617,7 @@ const lecturesData = [
     "id": 14,
     "week": 3,
     "title": "Meta-communication",
-    "youtubeId": "P2a4_w8wA03",
+    "youtubeId": "",
     "objectives": [
       "Understand psychological and emotional barriers (fear, prejudice, ego).",
       "Identify organizational barriers like hierarchy and info overload.",
@@ -664,7 +664,7 @@ const lecturesData = [
     "id": 15,
     "week": 3,
     "title": "Listening Skills",
-    "youtubeId": "Q2a4_w8wA04",
+    "youtubeId": "",
     "objectives": [
       "Understand the definition of culture in communication context.",
       "Explore the differences between high-context and low-context cultures.",
@@ -711,7 +711,7 @@ const lecturesData = [
     "id": 16,
     "week": 3,
     "title": "Types of Listening",
-    "youtubeId": "R2a4_w8wA05",
+    "youtubeId": "",
     "objectives": [
       "Understand the traps of Ethnocentrism and Stereotyping.",
       "Explore non-verbal cultural variations (gestures, eye contact).",
@@ -758,7 +758,7 @@ const lecturesData = [
     "id": 17,
     "week": 4,
     "title": "Negotiation Skills",
-    "youtubeId": "S2a4_w8wA06",
+    "youtubeId": "",
     "objectives": [
       "Understand the structured networks of information flow in corporations.",
       "Analyze the causes of communication gaps between management and labor.",
@@ -805,7 +805,7 @@ const lecturesData = [
     "id": 18,
     "week": 4,
     "title": "Negotiation Strategies",
-    "youtubeId": "T2a4_w8wA07",
+    "youtubeId": "",
     "objectives": [
       "Understand the definition and stages of negotiation.",
       "Differentiate between Distributive (Win-Lose) and Integrative (Win-Win) negotiation.",
@@ -852,7 +852,7 @@ const lecturesData = [
     "id": 19,
     "week": 4,
     "title": "Culture as Communication",
-    "youtubeId": "U2a4_w8wA08",
+    "youtubeId": "",
     "objectives": [
       "Analyze tactics used in business negotiations (Good Cop/Bad Cop, Anchoring).",
       "Explore the role of emotional control and silence in dealmaking.",
@@ -899,7 +899,7 @@ const lecturesData = [
     "id": 20,
     "week": 4,
     "title": "Communicating across Cultures",
-    "youtubeId": "V2a4_w8wA09",
+    "youtubeId": "",
     "objectives": [
       "Explore the philosophy of time and the causes of time wastage.",
       "Understand the difference between urgent and important tasks.",
@@ -946,7 +946,7 @@ const lecturesData = [
     "id": 21,
     "week": 4,
     "title": "Organizational Communication",
-    "youtubeId": "W2a4_w8wA10",
+    "youtubeId": "",
     "objectives": [
       "Analyze techniques to combat procrastination (Pomodoro, 2-Minute Rule).",
       "Understand the Pareto Principle (80/20 Rule) in workload management.",
@@ -993,7 +993,7 @@ const lecturesData = [
     "id": 22,
     "week": 5,
     "title": "Communication Breakdown Part I",
-    "youtubeId": "X2a4_w8wA11",
+    "youtubeId": "",
     "objectives": [
       "Understand the definition and biological mechanism of stress.",
       "Differentiate between Eustress (positive) and Distress (negative).",
@@ -1040,7 +1040,7 @@ const lecturesData = [
     "id": 23,
     "week": 5,
     "title": "Communication Breakdown Part II",
-    "youtubeId": "Y2a4_w8wA12",
+    "youtubeId": "",
     "objectives": [
       "Learn physiological and cognitive coping strategies for stress.",
       "Explore relaxation techniques (Deep breathing, meditation).",
@@ -1087,7 +1087,7 @@ const lecturesData = [
     "id": 24,
     "week": 5,
     "title": "Advanced Writing Skills",
-    "youtubeId": "Z2a4_w8wA13",
+    "youtubeId": "",
     "objectives": [
       "Understand the definition and stages of conflict in organizations.",
       "Analyze the causes of interpersonal and team conflicts.",
@@ -1134,7 +1134,7 @@ const lecturesData = [
     "id": 25,
     "week": 5,
     "title": "Principles of Business Writing",
-    "youtubeId": "a2hV6sA9A84",
+    "youtubeId": "",
     "objectives": [
       "Master the Thomas-Kilmann Conflict Mode Instrument (TKI).",
       "Analyze the five conflict styles: Competing, Collaborating, Compromising, Avoiding, Accommodating.",
@@ -1181,7 +1181,7 @@ const lecturesData = [
     "id": 26,
     "week": 5,
     "title": "Types of Business Writing Part I",
-    "youtubeId": "b2hV6sA9A85",
+    "youtubeId": "",
     "objectives": [
       "Understand the definition of Emotional Intelligence (EQ).",
       "Compare intelligence quotient (IQ) vs. emotional quotient (EQ).",
@@ -1228,7 +1228,7 @@ const lecturesData = [
     "id": 27,
     "week": 6,
     "title": "Types of Business Writing - Part II",
-    "youtubeId": "c2hV6sA9A86",
+    "youtubeId": "",
     "objectives": [
       "Understand the remaining domains of EQ: Self-Motivation, Empathy, and Social Skills.",
       "Explore practical tools to increase empathy in work conversations.",
@@ -1275,7 +1275,7 @@ const lecturesData = [
     "id": 28,
     "week": 6,
     "title": "Business Letters",
-    "youtubeId": "d2hV6sA9A87",
+    "youtubeId": "",
     "objectives": [
       "Understand the mechanics of structured written communication.",
       "Explore the difference between reader-centered and writer-centered writing.",
@@ -1322,7 +1322,7 @@ const lecturesData = [
     "id": 29,
     "week": 6,
     "title": "Business Letters: Format & Style",
-    "youtubeId": "e2hV6sA9A88",
+    "youtubeId": "",
     "objectives": [
       "Understand the primary rules of business correspondence.",
       "Explore word choice, sentence length, and active vs. passive voice.",
@@ -1369,7 +1369,7 @@ const lecturesData = [
     "id": 30,
     "week": 6,
     "title": "Types of Business Letters Part I",
-    "youtubeId": "f2hV6sA9A89",
+    "youtubeId": "",
     "objectives": [
       "Understand the structural layout of a standard business letter.",
       "Explore the differences between Full-Block and Modified-Block formats.",
@@ -1416,7 +1416,7 @@ const lecturesData = [
     "id": 31,
     "week": 6,
     "title": "Types of Business Letters Part II",
-    "youtubeId": "g2hV6sA9A90",
+    "youtubeId": "",
     "objectives": [
       "Analyze different categories of letters: Inquiry, Sales, Claim, and Collection.",
       "Explore the 3-step strategy for drafting bad-news letters.",
@@ -1463,7 +1463,7 @@ const lecturesData = [
     "id": 32,
     "week": 7,
     "title": "Report Writing",
-    "youtubeId": "h2hV6sA9A91",
+    "youtubeId": "",
     "objectives": [
       "Understand the definition and purpose of a business report.",
       "Analyze the difference between informational and analytical reports.",
@@ -1510,7 +1510,7 @@ const lecturesData = [
     "id": 33,
     "week": 7,
     "title": "Types of Reports",
-    "youtubeId": "i2hV6sA9A92",
+    "youtubeId": "",
     "objectives": [
       "Explore report classifications: Routine vs. Special, Formal vs. Informal.",
       "Analyze the structure of a Feasibility Report and Project Report.",
@@ -1557,7 +1557,7 @@ const lecturesData = [
     "id": 34,
     "week": 7,
     "title": "Strategies for Report Writing Part I",
-    "youtubeId": "j2hV6sA9A93",
+    "youtubeId": "",
     "objectives": [
       "Analyze the three main divisions of a formal report.",
       "Explore prefatory elements (Title page, Letter of Transmittal, Abstract).",
@@ -1604,7 +1604,7 @@ const lecturesData = [
     "id": 35,
     "week": 7,
     "title": "Strategies for Report Writing Part II",
-    "youtubeId": "k2hV6sA9A94",
+    "youtubeId": "",
     "objectives": [
       "Understand the objectivity requirements in report writing.",
       "Explore formatting rules, headings, and proofreading checklist.",
@@ -1651,7 +1651,7 @@ const lecturesData = [
     "id": 36,
     "week": 7,
     "title": "Evaluation and Organization of Data",
-    "youtubeId": "l2hV6sA9A95",
+    "youtubeId": "",
     "objectives": [
       "Understand the difference between a Manager and a Leader.",
       "Explore leadership styles (Autocratic, Democratic, Laissez-Faire).",
@@ -1698,7 +1698,7 @@ const lecturesData = [
     "id": 37,
     "week": 8,
     "title": "Structure of Reports: Part-I",
-    "youtubeId": "m2hV6sA9A96",
+    "youtubeId": "",
     "objectives": [
       "Understand the purpose of Group Discussions (GD) in recruitment.",
       "Analyze the parameters evaluated in GD (knowledge, leadership, coordination).",
@@ -1745,7 +1745,7 @@ const lecturesData = [
     "id": 38,
     "week": 8,
     "title": "Structure of Reports: Part-II",
-    "youtubeId": "n2hV6sA9A97",
+    "youtubeId": "",
     "objectives": [
       "Understand strategies of public speaking and speech structures.",
       "Explore techniques of impromptu speaking (Extempore).",
@@ -1792,7 +1792,7 @@ const lecturesData = [
     "id": 39,
     "week": 8,
     "title": "Report Style: Part I",
-    "youtubeId": "o2hV6sA9A98",
+    "youtubeId": "",
     "objectives": [
       "Analyze the three stages of oral presentation: Planning, Preparing, and Delivering.",
       "Explore the 3Ps framework: Purpose, People, and Place.",
@@ -1839,7 +1839,7 @@ const lecturesData = [
     "id": 40,
     "week": 8,
     "title": "Report Style: Part II",
-    "youtubeId": "p2hV6sA9A99",
+    "youtubeId": "",
     "objectives": [
       "Understand stage fright and its physiological triggers.",
       "Explore strategies to combat stage nervousness (rehearsals, visualization).",
@@ -1886,7 +1886,7 @@ const lecturesData = [
     "id": 41,
     "week": 8,
     "title": "Group Communication",
-    "youtubeId": "q2hV6sA9A100",
+    "youtubeId": "",
     "objectives": [
       "Understand the dynamics of communicating in small and large teams.",
       "Explore meeting management, agendas, and minutes of meetings (MoM).",
