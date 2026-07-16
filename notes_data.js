@@ -14,117 +14,249 @@ const lecturesData = [
     ],
     notes: `
       <div class="space-y-8">
+        <!-- Section 1 -->
         <div class="border-l-4 border-amber-500 pl-4">
-          <h3 class="text-xl font-bold text-slate-800">Core Conceptual Framework</h3>
-          <p class="text-sm text-slate-500 mt-1">Syllabus foundation and definitions.</p>
+          <h3 class="text-xl font-bold text-slate-805">1. Introduction & Conceptual Framework</h3>
+          <p class="text-xs text-slate-500 mt-1">Historical shift in career readiness standards.</p>
         </div>
+        <p class="text-sm text-slate-650 leading-relaxed">
+          Historically, professional readiness was judged almost entirely by academic scores or specialized technical knowledge. Today, Soft Skills have transitioned from being a supplementary asset to an absolute prerequisite for career success and employability.
+        </p>
+        <p class="text-sm font-semibold text-slate-700">Soft Skills can be characterized as:</p>
+        <ul class="space-y-2.5 text-sm text-slate-700 pl-5">
+          <li class="flex items-start gap-2.5">
+            <i class="bi bi-patch-question-fill text-amber-600 mt-0.5"></i>
+            <span>A buzzword recognized globally in contemporary job markets.</span>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <i class="bi bi-umbrella-fill text-amber-600 mt-0.5"></i>
+            <span>An umbrella term encompassing an array of diverse, non-technical skills.</span>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <i class="bi bi-people-fill text-amber-600 mt-0.5"></i>
+            <span>People skills that focus on human-to-human interaction.</span>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <i class="bi bi-puzzle-fill text-amber-600 mt-0.5"></i>
+            <span>A vital complement to an individual’s hard skills.</span>
+          </li>
+        </ul>
 
-        <div class="grid md:grid-cols-2 gap-6">
-          <div class="bg-amber-50/50 p-6 rounded-2xl border border-amber-100">
-            <h4 class="text-amber-800 font-semibold mb-3 uppercase tracking-wider text-xs">Official Definition</h4>
-            <p class="italic text-slate-700 leading-relaxed">
-              "Soft Skills comprise personality traits, social graces, facility with language, personal habits, friendliness, and optimism that mark people to varying degrees."
-            </p>
-          </div>
-          <div class="grid grid-cols-2 gap-4">
-            <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
-              <span class="block text-amber-600 font-bold text-base mb-1">01. Buzzword</span>
-              <p class="text-xs text-slate-500">Globally recognized career prerequisite.</p>
-            </div>
-            <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
-              <span class="block text-amber-600 font-bold text-base mb-1">02. Complement</span>
-              <p class="text-xs text-slate-500">Enables hard skills to function effectively.</p>
-            </div>
-            <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
-              <span class="block text-amber-600 font-bold text-base mb-1">03. People Skills</span>
-              <p class="text-xs text-slate-500">Focuses on human-to-human interaction.</p>
-            </div>
-            <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
-              <span class="block text-amber-600 font-bold text-base mb-1">04. Umbrella Term</span>
-              <p class="text-xs text-slate-500">Encompasses diverse non-technical traits.</p>
-            </div>
-          </div>
+        <!-- Section 2 -->
+        <div class="border-l-4 border-amber-500 pl-4">
+          <h3 class="text-xl font-bold text-slate-805">2. Core Definition of Soft Skills</h3>
+          <p class="text-xs text-slate-500 mt-1">Formal lecture definition and categorizations.</p>
         </div>
-
-        <div class="bg-slate-900 rounded-2xl p-6 text-white">
-          <h4 class="text-lg font-bold mb-4">The Dual Category Ecosystem</h4>
-          <p class="text-sm text-slate-400 mb-6">Soft skills are broadly divided into Behavioral (internal traits) and People (external relations) skills.</p>
+        <div class="bg-amber-50/50 p-6 rounded-2xl border border-amber-100/50">
+          <p class="italic text-slate-700 leading-relaxed text-sm">
+            "Soft Skills comprise personality traits, social graces, facility with language, personal habits, friendliness, and optimism that mark people to varying degrees."
+          </p>
+        </div>
+        
+        <div class="bg-slate-900 rounded-3xl p-6 text-white space-y-6">
+          <div>
+            <h4 class="text-base font-bold">Key Categorizations</h4>
+            <p class="text-xxs text-slate-400 mt-1">To make this broad definition actionable, soft skills are split into two operational categories:</p>
+          </div>
           <div class="grid md:grid-cols-2 gap-6">
-            <div class="p-5 rounded-xl bg-slate-800/80 border border-slate-700">
-              <h5 class="text-amber-500 font-bold mb-3">Behavioral Skills (Internal)</h5>
-              <ul class="space-y-2 text-xs text-slate-300">
-                <li class="flex items-center gap-2">✔ <strong>Self-Awareness:</strong> Understanding strengths, limits, and triggers.</li>
-                <li class="flex items-center gap-2">✔ <strong>Self-Confidence:</strong> Belief in your capacity to face challenges.</li>
-                <li class="flex items-center gap-2">✔ <strong>Flexibility:</strong> Adaptability to changing environments.</li>
-                <li class="flex items-center gap-2">✔ <strong>Persistence & Perseverance:</strong> Drive to continue despite obstacles.</li>
+            <div class="p-5 rounded-xl bg-slate-800/80 border border-slate-700 space-y-2">
+              <h5 class="text-amber-500 font-bold text-xs flex items-center gap-1.5"><i class="bi bi-person-fill-gear"></i> A. Behavioral Skills (Internal)</h5>
+              <p class="text-[11px] text-slate-400 leading-normal">Personal attributes that determine how you manage yourself and respond to various situations:</p>
+              <ul class="space-y-1.5 text-[11px] text-slate-300">
+                <li>• <strong>Self-Awareness:</strong> Knowing your strengths, weaknesses, limits, and emotional triggers.</li>
+                <li>• <strong>Self-Confidence:</strong> Belief in your capabilities to face challenges.</li>
+                <li>• <strong>Flexibility:</strong> Adaptability to rapidly changing work environments.</li>
+                <li>• <strong>Persistence:</strong> The drive to continue despite obstacles.</li>
+                <li>• <strong>Perseverance:</strong> Steadfastness in achieving success despite difficulty.</li>
               </ul>
             </div>
-            <div class="p-5 rounded-xl bg-slate-800/80 border border-slate-700">
-              <h5 class="text-amber-500 font-bold mb-3">People Skills (External)</h5>
-              <ul class="space-y-2 text-xs text-slate-300">
-                <li class="flex items-center gap-2">✔ <strong>Communication:</strong> Clear expression across digital/verbal media.</li>
-                <li class="flex items-center gap-2">✔ <strong>Interpersonal Skills:</strong> Building rapport and trust.</li>
-                <li class="flex items-center gap-2">✔ <strong>Management:</strong> Controlling time, conflicts, and stress.</li>
-                <li class="flex items-center gap-2">✔ <strong>Leadership & Teamwork:</strong> Motivating and working in global teams.</li>
+            <div class="p-5 rounded-xl bg-slate-800/80 border border-slate-700 space-y-2">
+              <h5 class="text-amber-500 font-bold text-xs flex items-center gap-1.5"><i class="bi bi-people-fill"></i> B. People Skills (External)</h5>
+              <p class="text-[11px] text-slate-400 leading-normal">Interpersonal qualities that dictate how you interact with others:</p>
+              <ul class="space-y-1.5 text-[11px] text-slate-300">
+                <li>• <strong>Communication Skills:</strong> Clear expression, active listening, and verbal/non-verbal/digital media protocols.</li>
+                <li>• <strong>Interpersonal Skills:</strong> Building rapport, trust, and productive professional relationships.</li>
+                <li>• <strong>Management Skills:</strong> Managing time, resources, conflicts, and stressful scenarios.</li>
+                <li>• <strong>Leadership:</strong> Guiding, motivating, and driving others towards a collective goal.</li>
+                <li>• <strong>Team Dynamics:</strong> Working seamlessly in cross-functional, multi-cultural groups.</li>
               </ul>
             </div>
           </div>
+          <p class="text-[11px] text-slate-400 italic bg-slate-800/50 p-4 rounded-xl border border-slate-750">
+            <strong>Note:</strong> While many equate soft skills purely to communication skills, communication is merely one component of a much larger, comprehensive ecosystem.
+          </p>
         </div>
 
-        <div>
-          <h4 class="text-lg font-bold text-slate-800 mb-4">Hard Skills vs. Soft Skills</h4>
-          <div class="overflow-x-auto rounded-xl border border-slate-200">
-            <table class="w-full text-left border-collapse text-sm">
-              <thead class="bg-slate-50 text-slate-600 uppercase text-xs">
-                <tr>
-                  <th class="p-4 font-semibold border-b">Parameter</th>
-                  <th class="p-4 font-semibold border-b">Hard Skills (Engine)</th>
-                  <th class="p-4 font-semibold border-b">Soft Skills (Fuel)</th>
-                </tr>
-              </thead>
-              <tbody class="text-slate-700">
-                <tr class="hover:bg-slate-50/50">
-                  <td class="p-4 font-bold border-b bg-slate-50/30">Nature</td>
-                  <td class="p-4 border-b">Technical, cognitive, academic expertise</td>
-                  <td class="p-4 border-b">Behavioral, relational, emotional qualities</td>
-                </tr>
-                <tr class="hover:bg-slate-50/50">
-                  <td class="p-4 font-bold border-b bg-slate-50/30">Acquisition</td>
-                  <td class="p-4 border-b">Formal schools, text books, curriculum</td>
-                  <td class="p-4 border-b">Lifelong learning, reflection, experience</td>
-                </tr>
-                <tr class="hover:bg-slate-50/50">
-                  <td class="p-4 font-bold border-b bg-slate-50/30">Primary Focus</td>
-                  <td class="p-4 border-b">"What" tasks you perform</td>
-                  <td class="p-4 border-b">"How" you perform and interact</td>
-                </tr>
-                <tr class="hover:bg-slate-50/50">
-                  <td class="p-4 font-bold bg-slate-50/30">Role</td>
-                  <td class="p-4">Gets you the interview ("Foot in the door")</td>
-                  <td class="p-4">Secures and sustains the job ("True employability")</td>
-                </tr>
-              </tbody>
-            </table>
+        <!-- Section 3 -->
+        <div class="border-l-4 border-amber-500 pl-4">
+          <h3 class="text-xl font-bold text-slate-805">3. Comparative Analysis: Hard Skills vs. Soft Skills</h3>
+          <p class="text-xs text-slate-500 mt-1">Distinction and interplay in professional success.</p>
+        </div>
+        <div class="overflow-x-auto rounded-xl border border-slate-200">
+          <table class="w-full text-left border-collapse text-sm">
+            <thead class="bg-slate-50 text-slate-600 uppercase text-xs">
+              <tr>
+                <th class="p-4 font-semibold border-b">Parameter</th>
+                <th class="p-4 font-semibold border-b">Hard Skills</th>
+                <th class="p-4 font-semibold border-b">Soft Skills</th>
+              </tr>
+            </thead>
+            <tbody class="text-slate-700 text-xs">
+              <tr class="hover:bg-slate-50/50">
+                <td class="p-4 font-bold border-b bg-slate-50/30">Core Nature</td>
+                <td class="p-4 border-b">Technical skills, subject-matter expertise, and academic credentials.</td>
+                <td class="p-4 border-b">Behavioral, performance, and interpersonal qualities.</td>
+              </tr>
+              <tr class="hover:bg-slate-50/50">
+                <td class="p-4 font-bold border-b bg-slate-50/30">Acquisition</td>
+                <td class="p-4 border-b">Acquired via formal college/university curricula.</td>
+                <td class="p-4 border-b">Developed through continuous, lifelong learning and life experiences.</td>
+              </tr>
+              <tr class="hover:bg-slate-50/50">
+                <td class="p-4 font-bold border-b bg-slate-50/30">Primary Focus</td>
+                <td class="p-4 border-b">"What" technical tasks you can perform.</td>
+                <td class="p-4 border-b">"How" you perform those tasks, behave, and interact with others.</td>
+              </tr>
+              <tr class="hover:bg-slate-50/50">
+                <td class="p-4 font-bold bg-slate-50/30">Role in Career</td>
+                <td class="p-4">Serves as the engine or qualification to get your foot in the door.</td>
+                <td class="p-4">Serves as the fuel or driver that allows hard skills to succeed.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="p-4 bg-orange-50 text-amber-800 rounded-2xl border border-orange-100/50 text-xs">
+          <strong>Exam Takeaway:</strong> Hard skills are necessary to make you eligible for a job, but soft skills are what make you truly employable and allow you to climb the ladder of success.
+        </div>
+
+        <!-- Section 4 -->
+        <div class="border-l-4 border-amber-500 pl-4">
+          <h3 class="text-xl font-bold text-slate-805">4. Illustrative Anecdotes & Case Studies</h3>
+          <p class="text-xs text-slate-500 mt-1">Application-based exam scenarios.</p>
+        </div>
+        <div class="space-y-4">
+          <!-- Case 1 -->
+          <div class="p-5 rounded-2xl bg-white border border-slate-200 space-y-3">
+            <h4 class="font-bold text-slate-900 text-sm flex items-center gap-2"><i class="bi bi-briefcase-fill text-blue-650"></i> Case Study 1: The Bank Manager (Value of Non-Visual Traits)</h4>
+            <div class="text-xs text-slate-600 bg-slate-50/80 p-3 rounded-lg italic">
+              <strong>The Scenario:</strong> A father praises a new bank manager's "excellent soft skills." Upon visiting, the narrator notices the manager is short and conventionally unattractive.
+            </div>
+            <p class="text-xs text-slate-700"><strong>The Lesson:</strong> Soft skills do not depend on physical appearance or superficial qualities; rather, they are rooted in personal charm, helpfulness, and professional conduct.</p>
+          </div>
+          <!-- Case 2 -->
+          <div class="p-5 rounded-2xl bg-white border border-slate-200 space-y-3">
+            <h4 class="font-bold text-slate-900 text-sm flex items-center gap-2"><i class="bi bi-gift-fill text-green-650"></i> Case Study 2: The Gift Shop Manager (Helping vs. Selling)</h4>
+            <div class="text-xs text-slate-600 bg-slate-50/80 p-3 rounded-lg italic">
+              <strong>The Scenario:</strong> Facing a low budget at the end of the month, the narrator struggles to pick a wedding gift. The shop manager steps in with a highly empathetic, helpful approach, matching products to the narrator’s financial limitations and emotional needs. Despite dropping out of college due to financial constraints (lacking hard credentials), the manager makes a successful sale.
+            </div>
+            <p class="text-xs text-slate-700"><strong>The Lesson:</strong> Soft skills allow individuals to handle difficult situations smoothly, offering reassurance and reliability to clients by focusing on "helping" rather than just "selling."</p>
+          </div>
+          <!-- Case 3 -->
+          <div class="p-5 rounded-2xl bg-white border border-slate-200 space-y-3">
+            <h4 class="font-bold text-slate-900 text-sm flex items-center gap-2"><i class="bi bi-heart-pulse-fill text-red-650"></i> Case Study 3: The Doctor Dilemma (Jargon vs. Empathy)</h4>
+            <div class="text-xs text-slate-600 bg-slate-50/80 p-3 rounded-lg italic">
+              <strong>The Scenario:</strong> Two highly qualified batch-topper doctors with prestigious foreign degrees practice on the same road. Doctor A’s clinic is empty, while Doctor B’s clinic is consistently crowded. Doctor A uses complex medical terminology (e.g., diagnosing a confused patient with "hypochondria"), inducing fear and alienation. Doctor B & staff practice active listening, exhibit friendly manners, and focus on simple, reassuring communication.
+            </div>
+            <p class="text-xs text-slate-700"><strong>The Lesson:</strong> Equal hard skills (academic qualifications) can yield completely different professional outcomes based on the presence or absence of soft skills.</p>
+          </div>
+          <!-- Case 4 -->
+          <div class="p-5 rounded-2xl bg-white border border-slate-200 space-y-3">
+            <h4 class="font-bold text-slate-900 text-sm flex items-center gap-2"><i class="bi bi-person-check-fill text-amber-600"></i> Case Study 4: The Recruiter's Perspective</h4>
+            <div class="text-xs text-slate-600 bg-slate-50/80 p-3 rounded-lg italic">
+              <strong>The Quote:</strong> A prominent recruiter once noted: "I would love to hire a girl with a pleasant smile and better communication skills than one having a very good CGPA and doing nothing."
+            </div>
+            <p class="text-xs text-slate-700"><strong>The Lesson:</strong> Academic performance (CGPA) alone is secondary to dynamic soft skills during professional selection.</p>
           </div>
         </div>
 
-        <div class="bg-amber-50/30 p-6 rounded-2xl border border-amber-100">
-          <h4 class="text-lg font-bold text-slate-800 mb-4">Socio-Economic Relevance & Crisis</h4>
-          <p class="text-sm text-slate-600 mb-4">Data points proving the critical need for Soft Skills in India:</p>
-          <ul class="space-y-3 text-sm text-slate-700">
-            <li class="flex items-start gap-2">
-              <span class="text-amber-600 font-bold">▪</span>
-              <span><strong>The Qualification Irony:</strong> Census 2011 data indicates that the unemployment rate is higher among the "better qualified" graduates, as academic degrees don't correlate to workplace readiness.</span>
-            </li>
-            <li class="flex items-start gap-2">
-              <span class="text-amber-600 font-bold">▪</span>
-              <span><strong>The Peon Crisis (2015):</strong> Over 23 Lakh candidates, including thousands of doctors, B.Tech, and MBA holders, applied for 368 entry-level peon jobs in Uttar Pradesh.</span>
-            </li>
-            <li class="flex items-start gap-2">
-              <span class="text-amber-600 font-bold">▪</span>
-              <span><strong>The Employability Gap:</strong> Tech industry assessments report that up to 82% of engineering graduates in India are unemployable in core functional jobs due to lack of communication, adaptability, and emotional intelligence.</span>
-            </li>
-          </ul>
+        <!-- Section 5 -->
+        <div class="border-l-4 border-amber-500 pl-4">
+          <h3 class="text-xl font-bold text-slate-805">5. Socio-Economic Data & The Employability Crisis</h3>
+          <p class="text-xs text-slate-500 mt-1">The 'why' behind the soft skills movement.</p>
+        </div>
+        <ul class="space-y-3 text-sm text-slate-700 pl-5">
+          <li class="flex items-start gap-2">
+            <i class="bi bi-dot text-amber-600 text-lg flex-shrink-0"></i>
+            <span><strong>The Qualification Irony:</strong> Census 2011 data (published in *The Hindu*, November 7, 2015) shows that the unemployment rate is higher among the better qualified.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <i class="bi bi-dot text-amber-600 text-lg flex-shrink-0"></i>
+            <span><strong>The Underemployment Crisis:</strong> In Uttar Pradesh, 23 Lakh (2.3 x 10<sup>6</sup>) candidates—including doctors and engineers—applied for entry-level peon positions (*India News*, September 16, 2015).</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <i class="bi bi-dot text-amber-600 text-lg flex-shrink-0"></i>
+            <span><strong>The Employability Gap:</strong> An Aspiring Minds survey reveals a massive percentage of modern professionals are deemed unemployable solely due to poor communication and lack of soft skills.</span>
+          </li>
+        </ul>
+
+        <!-- Section 6 -->
+        <div class="border-l-4 border-amber-500 pl-4">
+          <h3 class="text-xl font-bold text-slate-805">6. Relevance & The Need of the Hour</h3>
+          <p class="text-xs text-slate-500 mt-1">Why Soft Skills are crucial now and policy reform perspectives.</p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-6 text-xs text-slate-700">
+          <div class="bg-white p-5 rounded-2xl border border-slate-200 space-y-3">
+            <h4 class="font-bold text-amber-800 text-xs">Why are Soft Skills Crucial Now?</h4>
+            <ul class="space-y-2">
+              <li class="flex items-start gap-2"><i class="bi bi-check text-amber-600"></i> <span><strong>Bridging Academia-Industry Gap:</strong> Focuses on practical workplace behaviors.</span></li>
+              <li class="flex items-start gap-2"><i class="bi bi-check text-amber-600"></i> <span><strong>Changing Nature of Work:</strong> Demands collaborative, cross-cultural sensitivity.</span></li>
+              <li class="flex items-start gap-2"><i class="bi bi-check text-amber-600"></i> <span><strong>Rise of Digital Communication:</strong> Electronic messaging requires tone control.</span></li>
+              <li class="flex items-start gap-2"><i class="bi bi-check text-amber-600"></i> <span><strong>Organizational Accountability:</strong> Taking risks and resolving crises independently.</span></li>
+            </ul>
+          </div>
+          <div class="bg-slate-900 text-white p-5 rounded-2xl border border-slate-700 flex flex-col justify-between">
+            <div class="space-y-2">
+              <h4 class="font-bold text-amber-500 text-xs mb-1">Policy & Reform Perspective</h4>
+              <p class="italic text-slate-350 leading-relaxed text-xxs">
+                "...invest in and build skills among the youth [through] a complete overhaul of our education system closely integrating it with an effective apprenticeship regime."
+              </p>
+            </div>
+            <span class="text-[10px] text-amber-600 font-bold block mt-3 text-right">— Rituparna Chakraborty (VP, Indian Staffing Federation)</span>
+          </div>
+        </div>
+
+        <!-- Section 7 -->
+        <div class="border-l-4 border-amber-500 pl-4">
+          <h3 class="text-xl font-bold text-slate-805">7. Key Government & Academic Initiatives</h3>
+          <p class="text-xs text-slate-500 mt-1">Systematic capacities being built nationwide.</p>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+          <div class="bg-white p-4 rounded-xl border border-slate-200">
+            <i class="bi bi-lightning-charge-fill text-amber-600 text-lg"></i>
+            <h5 class="font-bold text-slate-900 text-xs mt-2">Skill India</h5>
+            <p class="text-[10px] text-slate-500 mt-1">Vocational & soft-skill building</p>
+          </div>
+          <div class="bg-white p-4 rounded-xl border border-slate-200">
+            <i class="bi bi-gear-wide-connected text-amber-600 text-lg"></i>
+            <h5 class="font-bold text-slate-900 text-xs mt-2">Make In India</h5>
+            <p class="text-[10px] text-slate-500 mt-1">Boosting industrial capacities</p>
+          </div>
+          <div class="bg-white p-4 rounded-xl border border-slate-200">
+            <i class="bi bi-rocket-takeoff-fill text-amber-600 text-lg"></i>
+            <h5 class="font-bold text-slate-900 text-xs mt-2">Startup India</h5>
+            <p class="text-[10px] text-slate-500 mt-1">Fosters self-reliance & leadership</p>
+          </div>
+          <div class="bg-white p-4 rounded-xl border border-slate-200">
+            <i class="bi bi-pc-display text-amber-600 text-lg"></i>
+            <h5 class="font-bold text-slate-900 text-xs mt-2">NPTEL</h5>
+            <p class="text-[10px] text-slate-500 mt-1">Digital accessibility to resources</p>
+          </div>
+        </div>
+
+        <!-- Section 8 -->
+        <div class="border-l-4 border-amber-500 pl-4">
+          <h3 class="text-xl font-bold text-slate-805">8. Philosophical Takeaway for Exams</h3>
+          <p class="text-xs text-slate-500 mt-1">Self-development mantra for success.</p>
+        </div>
+        <div class="bg-amber-50/50 p-8 rounded-3xl border border-amber-100/50 text-center space-y-4">
+          <p class="text-lg font-black text-slate-800 italic leading-snug">"Arise, awake, and stop not till the goal is reached."</p>
+          <span class="text-xxs font-bold text-slate-500 uppercase tracking-widest block">— Swami Vivekananda</span>
+          <div class="h-[1px] w-20 bg-amber-500 mx-auto"></div>
+          <div class="flex flex-wrap justify-center gap-4 text-[10px] font-bold text-slate-600">
+            <span class="px-3 py-1.5 bg-white rounded-full border border-slate-200">Arise &rarr; Develop Self-Awareness</span>
+            <span class="px-3 py-1.5 bg-white rounded-full border border-slate-200">Awake &rarr; Build Self-Confidence</span>
+            <span class="px-3 py-1.5 bg-white rounded-full border border-slate-200">Stop Not &rarr; Become Dynamic</span>
+          </div>
         </div>
       </div>
     `,

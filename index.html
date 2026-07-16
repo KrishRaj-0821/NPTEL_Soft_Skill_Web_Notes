@@ -315,85 +315,48 @@
     </section>
 
     <!-- Case Studies as Student Testimonials -->
-    <section id="cases" class="py-24 px-6 bg-white">
-        <div class="max-w-7xl mx-auto space-y-16">
+    <section id="cases" class="py-24 px-6 bg-white border-b border-orange-100/20">
+        <div class="max-w-4xl mx-auto space-y-12">
             <div class="text-center space-y-3">
-                <h2 class="text-3xl sm:text-4xl font-bold text-slate-900">Real-World Case Studies</h2>
-                <p class="text-sm text-slate-500 max-w-xl mx-auto">Reimagining the course's core case stories as practical lessons in soft skills.</p>
+                <h2 class="text-3xl sm:text-4xl font-bold text-slate-900">Illustrative Case Studies</h2>
+                <p class="text-sm text-slate-500 max-w-xl mx-auto">Real-world scenarios demonstrating the value of empathy, reliability, and conduct over jargon and appearance.</p>
             </div>
 
-            <div class="grid md:grid-cols-4 gap-8">
-                <!-- Case 1 -->
-                <div class="p-6 rounded-2xl border border-slate-100 bg-slate-50/30 space-y-4 card-shadow">
-                    <div class="w-10 h-10 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center text-lg">
-                        <i class="bi bi-briefcase-fill"></i>
-                    </div>
+            <!-- Tab Buttons -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4" id="case-study-nav">
+                <button onclick="showCase(0)" class="case-study-btn p-4 rounded-xl border border-slate-200 text-left transition-all hover:border-amber-500/50 flex flex-col justify-between">
                     <div>
-                        <span class="text-xxs font-bold text-blue-600 tracking-widest uppercase">Case Study 1</span>
-                        <h4 class="font-bold text-slate-900 mt-1">The Bank Manager</h4>
+                        <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Case 01</span>
+                        <h4 class="font-bold text-slate-800 text-xs mt-1">The Bank Manager</h4>
                     </div>
-                    <p class="text-xs text-slate-500 leading-relaxed italic">
-                        "A bank manager praised for exceptional soft skills turned out to be short in stature and conventionally unattractive."
-                    </p>
-                    <div class="border-t border-slate-100 pt-3">
-                        <span class="text-xxs font-bold uppercase text-slate-400">Lesson</span>
-                        <p class="text-xs font-semibold text-slate-800 mt-0.5">Soft skills depend on conduct and helpfulness, not physical looks.</p>
+                    <span class="text-[10px] text-slate-500 mt-2">Appearance vs. Conduct</span>
+                </button>
+                <button onclick="showCase(1)" class="case-study-btn p-4 rounded-xl border border-slate-200 text-left transition-all hover:border-amber-500/50 flex flex-col justify-between">
+                    <div>
+                        <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Case 02</span>
+                        <h4 class="font-bold text-slate-800 text-xs mt-1">Gift Shop Manager</h4>
                     </div>
-                </div>
+                    <span class="text-[10px] text-slate-500 mt-2">Helping vs. Selling</span>
+                </button>
+                <button onclick="showCase(2)" class="case-study-btn p-4 rounded-xl border border-slate-200 text-left transition-all hover:border-amber-500/50 flex flex-col justify-between">
+                    <div>
+                        <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Case 03</span>
+                        <h4 class="font-bold text-slate-800 text-xs mt-1">The Doctor Dilemma</h4>
+                    </div>
+                    <span class="text-[10px] text-slate-500 mt-2">Jargon vs. Empathy</span>
+                </button>
+                <button onclick="showCase(3)" class="case-study-btn p-4 rounded-xl border border-slate-200 text-left transition-all hover:border-amber-500/50 flex flex-col justify-between">
+                    <div>
+                        <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Case 04</span>
+                        <h4 class="font-bold text-slate-800 text-xs mt-1">The Recruiter</h4>
+                    </div>
+                    <span class="text-[10px] text-slate-500 mt-2">CGPA vs. Smile</span>
+                </button>
+            </div>
 
-                <!-- Case 2 -->
-                <div class="p-6 rounded-2xl border border-slate-100 bg-slate-50/30 space-y-4 card-shadow">
-                    <div class="w-10 h-10 rounded-full bg-green-50 text-green-600 flex items-center justify-center text-lg">
-                        <i class="bi bi-gift-fill"></i>
-                    </div>
-                    <div>
-                        <span class="text-xxs font-bold text-green-600 tracking-widest uppercase">Case Study 2</span>
-                        <h4 class="font-bold text-slate-900 mt-1">Gift Shop Manager</h4>
-                    </div>
-                    <p class="text-xs text-slate-500 leading-relaxed italic">
-                        "A college-dropout manager uses deep empathy to help a cash-strapped narrator find a perfect gift."
-                    </p>
-                    <div class="border-t border-slate-100 pt-3">
-                        <span class="text-xxs font-bold uppercase text-slate-400">Lesson</span>
-                        <p class="text-xs font-semibold text-slate-800 mt-0.5">Focus on reassuring and helping clients, rather than raw selling.</p>
-                    </div>
-                </div>
-
-                <!-- Case 3 -->
-                <div class="p-6 rounded-2xl border border-slate-100 bg-slate-50/30 space-y-4 card-shadow">
-                    <div class="w-10 h-10 rounded-full bg-red-50 text-red-600 flex items-center justify-center text-lg">
-                        <i class="bi bi-heart-pulse-fill"></i>
-                    </div>
-                    <div>
-                        <span class="text-xxs font-bold text-red-600 tracking-widest uppercase">Case Study 3</span>
-                        <h4 class="font-bold text-slate-900 mt-1">The Doctor Dilemma</h4>
-                    </div>
-                    <p class="text-xs text-slate-500 leading-relaxed italic">
-                        "Two medical toppers: Doctor A uses complex medical jargon causing fear, while Doctor B is empathetic and simple."
-                    </p>
-                    <div class="border-t border-slate-100 pt-3">
-                        <span class="text-xxs font-bold uppercase text-slate-400">Lesson</span>
-                        <p class="text-xs font-semibold text-slate-800 mt-0.5">Equal hard skills yield different professional success based on empathy.</p>
-                    </div>
-                </div>
-
-                <!-- Case 4 -->
-                <div class="p-6 rounded-2xl border border-slate-100 bg-slate-50/30 space-y-4 card-shadow">
-                    <div class="w-10 h-10 rounded-full bg-amber-50 text-amber-600 flex items-center justify-center text-lg">
-                        <i class="bi bi-person-check-fill"></i>
-                    </div>
-                    <div>
-                        <span class="text-xxs font-bold text-amber-600 tracking-widest uppercase">Case Study 4</span>
-                        <h4 class="font-bold text-slate-900 mt-1">The Recruiter</h4>
-                    </div>
-                    <p class="text-xs text-slate-500 leading-relaxed italic">
-                        "A company recruiter prioritizes a candidate's pleasant smile and group coordination over a high CGPA with zero social skills."
-                    </p>
-                    <div class="border-t border-slate-100 pt-3">
-                        <span class="text-xxs font-bold uppercase text-slate-400">Lesson</span>
-                        <p class="text-xs font-semibold text-slate-800 mt-0.5">Technical qualification is secondary to personality in job selections.</p>
-                    </div>
-                </div>
+            <!-- Active Case Content Container -->
+            <div id="case-content" class="bg-slate-50/50 p-6 md:p-8 rounded-3xl border border-slate-200 transition-all duration-300 min-h-[220px]">
+                <!-- Injected via JS -->
             </div>
         </div>
     </section>
@@ -490,7 +453,72 @@
 
     <!-- Chart Scripts & Accordion Logic -->
     <script>
+        const caseStudies = [
+            {
+                title: "The Bank Manager",
+                scenario: "A manager praised for soft skills turns out to be 'conventionally unattractive' and short in stature.",
+                lesson: "Soft skills do not depend on physical appearance. They are rooted in personal charm, helpfulness, and professional conduct.",
+                ref: "Case Study 1"
+            },
+            {
+                title: "The Gift Shop Manager",
+                scenario: "A college dropout manager helps a budget-constrained narrator find a perfect gift using empathy rather than hard-selling.",
+                lesson: "Soft skills offer reassurance and reliability. Focus on 'helping' rather than 'selling'.",
+                ref: "Case Study 2"
+            },
+            {
+                title: "The Doctor Dilemma",
+                scenario: "Two toppers: Doctor A uses jargon like 'hypochondria' inducing fear; Doctor B uses simple, reassuring communication.",
+                lesson: "Equal hard skills yield different professional outcomes based on communication style and empathy.",
+                ref: "Case Study 3"
+            },
+            {
+                title: "The Recruiter's Perspective",
+                scenario: "A recruiter values a pleasant smile and communication over a high CGPA with no social skills.",
+                lesson: "Academic performance (Hard Skills) is secondary to dynamic personality traits in selection.",
+                ref: "Case Study 4"
+            }
+        ];
+
+        function showCase(index) {
+            const content = document.getElementById('case-content');
+            const data = caseStudies[index];
+            
+            // Handle active button state
+            const btns = document.querySelectorAll('.case-study-btn');
+            btns.forEach((b, i) => {
+                if(i === index) {
+                    b.className = "case-study-btn p-4 rounded-xl border-2 border-amber-600 bg-amber-50/50 text-left transition-all flex flex-col justify-between shadow-md shadow-amber-500/5";
+                } else {
+                    b.className = "case-study-btn p-4 rounded-xl border border-slate-200 text-left transition-all hover:border-amber-500/50 flex flex-col justify-between bg-white";
+                }
+            });
+
+            content.style.opacity = 0;
+            setTimeout(() => {
+                content.innerHTML = `
+                    <div class="grid md:grid-cols-2 gap-8 items-center">
+                        <div class="space-y-4">
+                            <span class="text-xxs font-bold text-amber-600 uppercase tracking-widest block">${data.ref}</span>
+                            <h3 class="text-xl font-bold text-slate-900">${data.title}</h3>
+                            <div class="p-4 bg-white border border-slate-100 rounded-2xl">
+                                <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-1">Scenario</span>
+                                <p class="text-xs text-slate-600 leading-relaxed italic">"${data.scenario}"</p>
+                            </div>
+                        </div>
+                        <div class="bg-amber-50/30 p-6 rounded-2xl border border-amber-100/50 space-y-3">
+                            <span class="text-xxs font-bold text-amber-800 uppercase tracking-widest block">Key Lesson for Exam</span>
+                            <p class="text-sm font-semibold text-slate-800 leading-relaxed">${data.lesson}</p>
+                        </div>
+                    </div>
+                `;
+                content.style.opacity = 1;
+            }, 150);
+        }
+
         document.addEventListener('DOMContentLoaded', () => {
+            showCase(0);
+            
             const ctx = document.getElementById('employabilityChart').getContext('2d');
             new Chart(ctx, {
                 type: 'doughnut',
