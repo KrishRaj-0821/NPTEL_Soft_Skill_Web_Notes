@@ -65,36 +65,39 @@
             border: 0;
             border-radius: 1rem;
         }
+
+        /* Utility: extra-extra-small text */
+        .text-xxs { font-size: 0.625rem; line-height: 1rem; }
     </style>
 </head>
 <body class="antialiased h-screen overflow-hidden flex flex-col">
 
     <!-- Top Navbar -->
-    <header class="bg-white border-b border-orange-100/50 px-6 py-4 flex justify-between items-center z-20 shrink-0">
-        <div class="flex items-center gap-3">
+    <header class="bg-white border-b border-orange-100/50 px-4 sm:px-6 py-3 sm:py-4 flex justify-between items-center z-20 shrink-0">
+        <div class="flex items-center gap-2 sm:gap-3">
             <button onclick="toggleSidebar()" class="lg:hidden p-2 rounded-lg hover:bg-slate-100 text-slate-650">
                 <i class="bi bi-list text-2xl"></i>
             </button>
             <a href="index.html" class="flex items-center gap-2">
-                <div class="w-8 h-8 bg-amber-600 rounded-lg flex items-center justify-center text-white shadow-md shadow-amber-500/10">
-                    <i class="bi bi-mortarboard-fill text-lg"></i>
+                <div class="w-7 h-7 sm:w-8 sm:h-8 bg-amber-600 rounded-lg flex items-center justify-center text-white shadow-md shadow-amber-500/10">
+                    <i class="bi bi-mortarboard-fill text-base sm:text-lg"></i>
                 </div>
                 <div class="flex flex-col">
-                    <span class="text-sm font-bold tracking-tight leading-none text-slate-900">SS Mastery Portal</span>
-                    <span class="text-xxs text-amber-650 font-semibold tracking-wider uppercase">NPTEL Notes Platform</span>
+                    <span class="text-xs sm:text-sm font-bold tracking-tight leading-none text-slate-900">SS Mastery Portal</span>
+                    <span class="text-xxs text-amber-650 font-semibold tracking-wider uppercase hidden sm:block">NPTEL Notes Platform</span>
                 </div>
             </a>
         </div>
 
-        <div class="flex items-center gap-4 text-xs font-semibold text-slate-500">
+        <div class="flex items-center gap-2 sm:gap-4 text-xs font-semibold text-slate-500">
             <span class="hidden md:inline-flex items-center gap-1.5 px-3 py-1 bg-amber-50 text-amber-800 rounded-full border border-amber-200/50">
                 <i class="bi bi-award-fill"></i> NPTEL noc26_hs193
             </span>
             <a href="index.html" class="hover:text-amber-600 transition-colors flex items-center gap-1">
-                <i class="bi bi-house-door-fill"></i> Home
+                <i class="bi bi-house-door-fill"></i> <span class="hidden sm:inline">Home</span>
             </a>
-            <span class="text-slate-300">|</span>
-            <a href="https://rajkishu.netlify.app/" target="_blank" class="hover:text-amber-600 transition-colors flex items-center gap-1">
+            <span class="text-slate-300 hidden sm:inline">|</span>
+            <a href="https://rajkishu.netlify.app/" target="_blank" class="hover:text-amber-600 transition-colors flex items-center gap-1 hidden sm:flex">
                 <i class="bi bi-person-workspace text-sm"></i> Portfolio
             </a>
         </div>
@@ -149,46 +152,46 @@
         <main class="flex-1 overflow-y-auto scroll-custom flex flex-col">
             
             <!-- Active Lecture Summary Banner -->
-            <div class="bg-white border-b border-orange-100/30 px-6 py-8 shrink-0">
-                <div class="max-w-4xl mx-auto flex flex-col md:flex-row justify-between md:items-center gap-6">
-                    <div class="space-y-2">
+            <div class="bg-white border-b border-orange-100/30 px-4 sm:px-6 py-5 sm:py-8 shrink-0">
+                <div class="max-w-4xl mx-auto flex flex-col md:flex-row justify-between md:items-center gap-3 sm:gap-6">
+                    <div class="space-y-1 sm:space-y-2">
                         <div class="flex items-center gap-2 text-xs font-bold text-amber-600 uppercase tracking-widest">
                             <span id="activeWeekText">Week 1</span>
                             <span>•</span>
                             <span id="activeLectureNum">Lecture 1</span>
                         </div>
-                        <h1 id="activeLectureTitle" class="text-2xl md:text-3xl font-bold text-slate-900 leading-tight">Introduction to Soft Skills</h1>
+                        <h1 id="activeLectureTitle" class="text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 leading-tight">Introduction to Soft Skills</h1>
                     </div>
 
                     <!-- Complete Checkbox -->
                     <div class="flex items-center gap-3">
-                        <button id="completeBtn" onclick="toggleCurrentCompletion()" class="px-5 py-2.5 rounded-xl text-xs font-semibold border transition-all flex items-center gap-2">
+                        <button id="completeBtn" onclick="toggleCurrentCompletion()" class="px-4 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs font-semibold border transition-all flex items-center gap-2">
                             <!-- Injected by JS -->
                         </button>
                     </div>
                 </div>
             </div>
 
-            <!-- Tabs Navigation -->
-            <div class="bg-white border-b border-orange-100/30 px-6 z-10 sticky top-0 shrink-0">
-                <div class="max-w-4xl mx-auto flex gap-6 text-sm font-medium text-slate-500">
-                    <button onclick="switchTab('video')" id="tab-video" class="py-4 px-1 border-b-2 border-transparent transition-all active-tab flex items-center gap-1.5">
-                        <i class="bi bi-youtube"></i> Video Lecture
+            <!-- Tabs Navigation (horizontally scrollable on mobile) -->
+            <div class="bg-white border-b border-orange-100/30 px-4 sm:px-6 z-10 sticky top-0 shrink-0 overflow-x-auto">
+                <div class="max-w-4xl mx-auto flex gap-2 sm:gap-6 text-xs sm:text-sm font-medium text-slate-500 min-w-max">
+                    <button onclick="switchTab('video')" id="tab-video" class="py-3 sm:py-4 px-2 sm:px-1 border-b-2 border-transparent transition-all active-tab flex items-center gap-1 sm:gap-1.5 whitespace-nowrap">
+                        <i class="bi bi-youtube"></i> <span class="hidden xs:inline sm:inline">Video</span> Lecture
                     </button>
-                    <button onclick="switchTab('notes')" id="tab-notes" class="py-4 px-1 border-b-2 border-transparent transition-all flex items-center gap-1.5">
+                    <button onclick="switchTab('notes')" id="tab-notes" class="py-3 sm:py-4 px-2 sm:px-1 border-b-2 border-transparent transition-all flex items-center gap-1 sm:gap-1.5 whitespace-nowrap">
                         <i class="bi bi-file-earmark-text"></i> Study Notes
                     </button>
-                    <button onclick="switchTab('quiz')" id="tab-quiz" class="py-4 px-1 border-b-2 border-transparent transition-all flex items-center gap-1.5">
+                    <button onclick="switchTab('quiz')" id="tab-quiz" class="py-3 sm:py-4 px-2 sm:px-1 border-b-2 border-transparent transition-all flex items-center gap-1 sm:gap-1.5 whitespace-nowrap">
                         <i class="bi bi-clipboard-check"></i> Practice Quiz
                     </button>
-                    <button onclick="switchTab('takeaways')" id="tab-takeaways" class="py-4 px-1 border-b-2 border-transparent transition-all flex items-center gap-1.5">
+                    <button onclick="switchTab('takeaways')" id="tab-takeaways" class="py-3 sm:py-4 px-2 sm:px-1 border-b-2 border-transparent transition-all flex items-center gap-1 sm:gap-1.5 whitespace-nowrap">
                         <i class="bi bi-patch-check"></i> Key Objectives
                     </button>
                 </div>
             </div>
 
             <!-- Active Content Container -->
-            <div class="flex-1 p-6 md:p-8">
+            <div class="flex-1 p-3 sm:p-6 md:p-8">
                 <div class="max-w-4xl mx-auto">
 
                     <!-- Tab: Video -->
@@ -242,18 +245,18 @@
             </div>
 
             <!-- Bottom Navigation Bar & Footer -->
-            <div class="bg-white border-t border-orange-100/30 p-6 shrink-0 mt-auto">
-                <div class="max-w-4xl mx-auto flex justify-between items-center gap-4">
-                    <button onclick="navigateLecture(-1)" id="prevBtn" class="px-4 py-2 border border-slate-200 hover:bg-slate-50 text-slate-700 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-colors">
-                        <i class="bi bi-arrow-left"></i> Previous Lecture
+            <div class="bg-white border-t border-orange-100/30 p-4 sm:p-6 shrink-0 mt-auto">
+                <div class="max-w-4xl mx-auto flex justify-between items-center gap-2 sm:gap-4">
+                    <button onclick="navigateLecture(-1)" id="prevBtn" class="px-3 sm:px-4 py-2 border border-slate-200 hover:bg-slate-50 text-slate-700 rounded-xl text-xs font-semibold flex items-center gap-1 sm:gap-1.5 transition-colors">
+                        <i class="bi bi-arrow-left"></i> <span class="hidden sm:inline">Previous</span> Lecture
                     </button>
-                    <button onclick="navigateLecture(1)" id="nextBtn" class="px-4 py-2 border border-slate-200 hover:bg-slate-50 text-slate-700 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-colors">
-                        Next Lecture <i class="bi bi-arrow-right"></i>
+                    <button onclick="navigateLecture(1)" id="nextBtn" class="px-3 sm:px-4 py-2 border border-slate-200 hover:bg-slate-50 text-slate-700 rounded-xl text-xs font-semibold flex items-center gap-1 sm:gap-1.5 transition-colors">
+                        Next <span class="hidden sm:inline">Lecture</span> <i class="bi bi-arrow-right"></i>
                     </button>
                 </div>
                 
-                <div class="max-w-4xl mx-auto border-t border-slate-100/50 mt-6 pt-4 flex flex-col sm:flex-row justify-between items-center gap-2 text-xxs text-slate-400">
-                    <span>Powered by Gemini 2.5 Flash & NPTEL MOOC Hub</span>
+                <div class="max-w-4xl mx-auto border-t border-slate-100/50 mt-4 sm:mt-6 pt-3 sm:pt-4 flex flex-col sm:flex-row justify-between items-center gap-2 text-xxs text-slate-400 text-center">
+                    <span>Powered by Gemini 2.5 Flash &amp; NPTEL MOOC Hub</span>
                     <span>Creator Link: <a href="https://rajkishu.netlify.app/" target="_blank" class="hover:text-amber-600 transition-colors font-semibold">rajkishu.netlify.app</a></span>
                 </div>
             </div>

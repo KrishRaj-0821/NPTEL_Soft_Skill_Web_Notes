@@ -23,7 +23,7 @@
             max-width: 600px;
             margin-left: auto;
             margin-right: auto;
-            height: 300px;
+            height: 280px;
             max-height: 400px;
         }
 
@@ -45,6 +45,31 @@
         .case-study-btn:hover {
             transform: translateY(-2px);
             box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        /* Extra small text utility */
+        .text-xxs { font-size: 0.625rem; line-height: 1rem; }
+
+        /* Mobile menu */
+        #mobileMenu {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(15, 23, 42, 0.5);
+            backdrop-filter: blur(4px);
+            z-index: 100;
+        }
+        #mobileMenu.open { display: flex; }
+        #mobileMenuPanel {
+            background: #ffffff;
+            width: 75%;
+            max-width: 280px;
+            height: 100%;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+            box-shadow: 8px 0 40px rgba(0,0,0,0.15);
         }
     </style>
 </head>
@@ -71,26 +96,48 @@
 
     <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
 
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" onclick="closeMobileMenu(event)">
+        <div id="mobileMenuPanel">
+            <div class="flex justify-between items-center">
+                <div class="w-8 h-8 bg-amber-600 rounded flex items-center justify-center text-white font-bold text-sm">SS</div>
+                <button onclick="toggleMobileMenu()" class="p-1 rounded hover:bg-slate-100">
+                    <i class="bi bi-x-lg text-lg text-slate-600"></i>
+                </button>
+            </div>
+            <nav class="flex flex-col gap-1">
+                <a href="#definition" onclick="toggleMobileMenu()" class="px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-amber-50 hover:text-amber-700 transition-colors">Define</a>
+                <a href="#comparison" onclick="toggleMobileMenu()" class="px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-amber-50 hover:text-amber-700 transition-colors">Compare</a>
+                <a href="#stories" onclick="toggleMobileMenu()" class="px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-amber-50 hover:text-amber-700 transition-colors">Cases</a>
+                <a href="#relevance" onclick="toggleMobileMenu()" class="px-3 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-amber-50 hover:text-amber-700 transition-colors">Data</a>
+            </nav>
+            <a href="dashboard.html" class="mt-auto bg-amber-600 text-white px-4 py-2.5 rounded-xl font-bold text-center text-sm">Back to Dashboard</a>
+        </div>
+    </div>
+
     <!-- Navigation -->
-    <nav class="sticky top-0 z-50 bg-white/90 border-b border-slate-200 px-6 py-4 flex justify-between items-center">
+    <nav class="sticky top-0 z-50 bg-white/90 border-b border-slate-200 px-4 sm:px-6 py-3 sm:py-4 flex justify-between items-center">
         <div class="flex items-center gap-2">
             <div class="w-8 h-8 bg-amber-600 rounded flex items-center justify-center text-white font-bold text-sm">SS</div>
-            <span class="font-bold text-slate-800 hidden md:block">Lecture 1: Introduction</span>
+            <span class="font-bold text-slate-800 hidden sm:block text-sm">Lecture 1: Introduction</span>
         </div>
-        <div class="flex gap-4 text-sm font-medium">
+        <div class="hidden sm:flex gap-3 md:gap-4 text-sm font-medium">
             <a href="#definition" class="nav-link text-slate-600 hover:text-amber-600 transition-all">Define</a>
             <a href="#comparison" class="nav-link text-slate-600 hover:text-amber-600 transition-all">Compare</a>
             <a href="#stories" class="nav-link text-slate-600 hover:text-amber-600 transition-all">Cases</a>
             <a href="#relevance" class="nav-link text-slate-600 hover:text-amber-600 transition-all">Data</a>
         </div>
+        <button onclick="toggleMobileMenu()" class="sm:hidden p-2 rounded-lg hover:bg-slate-100 text-slate-600">
+            <i class="bi bi-list text-2xl"></i>
+        </button>
     </nav>
 
-    <main class="max-w-5xl mx-auto px-6 py-12">
+    <main class="max-w-5xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
         
         <!-- Hero Section -->
-        <header class="text-center mb-20">
-            <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4 tracking-tight">Introduction to <span class="text-amber-600">Soft Skills</span></h1>
-            <p class="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
+        <header class="text-center mb-14 sm:mb-20">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 mb-4 tracking-tight">Introduction to <span class="text-amber-600">Soft Skills</span></h1>
+            <p class="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
                 Historically, readiness was academic scores. Today, soft skills are the prerequisite for global employability. Learn why they are the "fuel" to your technical "engine."
             </p>
         </header>
@@ -154,7 +201,7 @@
         </section>
 
         <!-- Section: Comparison -->
-        <section id="comparison" class="mb-24 scroll-mt-20">
+        <section id="comparison" class="mb-16 sm:mb-24 scroll-mt-20">
             <div class="mb-8 border-l-4 border-slate-800 pl-4">
                 <h2 class="text-2xl font-bold text-slate-800">Hard Skills vs. Soft Skills</h2>
                 <p class="text-slate-500 mt-2">A critical exam topic outlining the distinction and interplay (Ref: Screenshot 2026-07-16 113526.jpg).</p>
@@ -196,13 +243,13 @@
         </section>
 
         <!-- Section: Case Studies -->
-        <section id="stories" class="mb-24 scroll-mt-20">
+        <section id="stories" class="mb-16 sm:mb-24 scroll-mt-20">
             <div class="mb-8 border-l-4 border-amber-500 pl-4">
                 <h2 class="text-2xl font-bold text-slate-800">Illustrative Case Studies</h2>
                 <p class="text-slate-500 mt-2">Real-world scenarios demonstrating the value of empathy, reliability, and conduct over jargon and appearance.</p>
             </div>
 
-            <div class="grid md:grid-cols-4 gap-4 mb-8" id="case-study-nav">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mb-8" id="case-study-nav">
                 <button onclick="showCase(0)" class="case-study-btn p-4 rounded-xl glass-card text-left border-b-4 border-blue-500 active-case">
                     <h4 class="font-bold text-sm">01. The Bank Manager</h4>
                     <span class="text-xs text-slate-500">Appearance vs. Conduct</span>
@@ -227,8 +274,8 @@
         </section>
 
         <!-- Section: Data & Relevance -->
-        <section id="relevance" class="mb-24 scroll-mt-20">
-            <div class="grid md:grid-cols-2 gap-12 items-center">
+        <section id="relevance" class="mb-16 sm:mb-24 scroll-mt-20">
+            <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
                 <div>
                     <div class="mb-8 border-l-4 border-slate-800 pl-4">
                         <h2 class="text-2xl font-bold text-slate-800">The Employability Crisis</h2>
@@ -312,11 +359,19 @@
 
     </main>
 
-    <footer class="bg-slate-900 py-12 text-center text-slate-500 text-sm">
+    <footer class="bg-slate-900 py-8 sm:py-12 text-center text-slate-500 text-xs sm:text-sm">
         <p>&copy; 2026 Soft Skills Mastery Series - Lecture 1 Interactive Exam Notes</p>
     </footer>
 
     <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('open');
+            document.body.style.overflow = menu.classList.contains('open') ? 'hidden' : '';
+        }
+        function closeMobileMenu(e) {
+            if (e.target === document.getElementById('mobileMenu')) toggleMobileMenu();
+        }
         // Data Structures
         const categories = {
             behavioral: [
