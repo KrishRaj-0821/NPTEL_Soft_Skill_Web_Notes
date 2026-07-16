@@ -279,15 +279,20 @@
         function toggleSidebar() {
             const sidebar = document.getElementById('sidebarPanel');
             const overlay = document.getElementById('sidebarOverlay');
+            const accordion = document.getElementById('sidebarAccordion');
             
             if (sidebar.classList.contains('-translate-x-full')) {
+                // Opening sidebar
                 sidebar.classList.remove('-translate-x-full');
                 overlay.classList.remove('hidden');
-                document.body.style.overflow = 'hidden'; // lock scroll
+                document.body.style.overflow = 'hidden'; // lock page scroll
+                // Always reset to top so Week 1 is visible
+                if (accordion) accordion.scrollTop = 0;
             } else {
+                // Closing sidebar
                 sidebar.classList.add('-translate-x-full');
                 overlay.classList.add('hidden');
-                document.body.style.overflow = ''; // restore scroll
+                document.body.style.overflow = ''; // restore page scroll
             }
         }
 
@@ -347,8 +352,12 @@
                 });
             });
 
-            // Always open Week 1 initially
-            toggleWeekCollapse(1);
+            // On desktop (lg), auto-open Week 1 for quick access
+            // On mobile, keep all weeks collapsed so the full list is visible from top
+            const isDesktop = window.innerWidth >= 1024;
+            if (isDesktop) {
+                toggleWeekCollapse(1);
+            }
         }
 
         function toggleWeekCollapse(wNum) {
@@ -368,10 +377,16 @@
             currentLectureIndex = index;
             const data = lecturesData[index];
 
-            // Highlight in sidebar
+            // Highlight in sidebar and scroll into view
             document.querySelectorAll('[id^="lecBtn-"]').forEach(btn => btn.classList.remove('active-lecture'));
             const activeSidebarBtn = document.getElementById(`lecBtn-${index}`);
-            if (activeSidebarBtn) activeSidebarBtn.classList.add('active-lecture');
+            if (activeSidebarBtn) {
+                activeSidebarBtn.classList.add('active-lecture');
+                // Smooth scroll to active item within sidebar
+                setTimeout(() => {
+                    activeSidebarBtn.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+                }, 100);
+            }
 
             // Open parent week accordion if closed
             const weekContent = document.getElementById(`weekContent-${data.week}`);
