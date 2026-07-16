@@ -2499,44 +2499,44 @@ const lecturesData = [
     "title": "Interviews",
     "youtubeId": "",
     "objectives": [
-      "Define job interviews and understand employer goals.",
-      "Explore different formats (one-on-one, panel, structured vs unstructured).",
-      "Analyze typical parameters evaluated in entry-level hiring."
+      "Define job interviews and understand employer evaluation goals.",
+      "Explore different interview formats including panel and structured interviews.",
+      "Analyze the core parameters evaluated during hiring selections."
     ],
-    "notes": "\n        <div class=\"space-y-6\">\n          <div class=\"border-l-4 border-amber-500 pl-4\">\n            <h3 class=\"text-xl font-bold text-slate-800\">INTERVIEW DYNAMICS & PERSPECTIVES</h3>\n            <p class=\"text-sm text-slate-500 mt-1\">Understanding the evaluation process from the employer's viewpoint.</p>\n          </div>\n\n          <div class=\"bg-slate-900 text-white p-6 rounded-2xl text-xs space-y-3\">\n            <h4 class=\"font-bold text-amber-500\">Interview Formats</h4>\n            <p>• <strong>One-on-One:</strong> A single interviewer assesses the candidate. Personal and focused.</p>\n            <p>• <strong>Panel Interview:</strong> A group of interviewers (HR, technical, management) evaluate the candidate simultaneously.</p>\n            <p>• <strong>Structured:</strong> Uses a pre-set list of questions for all candidates. Standardized and objective.</p>\n          </div>\n        </div>\n      ",
+    "notes": "\n      <div class=\"space-y-6\">\n        <div class=\"border-l-4 border-amber-500 pl-4\">\n          <h3 class=\"text-xl font-bold text-slate-808\">INTERVIEW DYNAMICS & DIVERSE FORMATS</h3>\n          <p class=\"text-xs text-slate-500 mt-1\">Understanding the selection mechanism from the recruiter's lens.</p>\n        </div>\n\n        <p class=\"text-sm text-slate-650 leading-relaxed\">\n          A job interview is a structured interaction where an employer evaluates a candidate's compatibility for a role. Beyond technical competency (hard skills), interviewers assess key behavioral elements such as communication clarity, attitude, and cultural alignment.\n        </p>\n\n        <div class=\"bg-slate-900 rounded-2xl p-6 text-white space-y-4\">\n          <h4 class=\"text-amber-500 font-bold text-sm\"><i class=\"bi bi-grid-fill\"></i> Core Interview Structures</h4>\n          <div class=\"grid md:grid-cols-3 gap-4 text-xxs text-slate-300\">\n            <div class=\"p-3 bg-slate-800 rounded-xl border border-slate-700\">\n              <strong>One-on-One:</strong> A single interviewer. Offers room for personalized exploration and detailed technical grilling.\n            </div>\n            <div class=\"p-3 bg-slate-800 rounded-xl border border-slate-700\">\n              <strong>Panel Interview:</strong> Multiple interviewers (technical lead, HR manager, department head) assessing the candidate simultaneously.\n            </div>\n            <div class=\"p-3 bg-slate-800 rounded-xl border border-slate-700\">\n              <strong>Structured Interview:</strong> Candidates are asked the exact same list of pre-defined questions in the same sequence to maintain bias-free objectivity.\n            </div>\n          </div>\n        </div>\n      </div>\n    ",
     "quiz": [
       {
-        "question": "What is a Panel Interview?",
+        "question": "What is a major characteristic of a Structured Interview?",
         "options": [
-          "An interview where you are tested on an electronic panel.",
-          "An interview conducted by a group of multiple interviewers simultaneously.",
-          "An interview where you debate other candidates.",
-          "An interview over text messaging."
+          "It has no predefined guidelines.",
+          "Every candidate is asked the same set of questions in the same order.",
+          "It is conducted entirely via text messaging.",
+          "Candidates are allowed to ask all the questions."
         ],
         "answer": 1,
-        "explanation": "Panel interviews involve multiple stakeholders assessing you from different perspectives (technical, behavioral, HR)."
+        "explanation": "Structured interviews maintain standardization and fairness by asking all applicants identical questions in a fixed sequence."
       },
       {
-        "question": "What is an employer's primary goal during a job interview?",
+        "question": "What does a Panel Interview involve?",
         "options": [
-          "To read your resume aloud.",
-          "To evaluate if you have the skills, attitude, and culture fit for the role.",
-          "To offer you the highest possible salary immediately.",
-          "To test your typing speed only."
+          "A candidate testing electronic circuits on a board.",
+          "A group of multiple interviewers evaluating a single candidate.",
+          "A candidate interviewing multiple companies at once.",
+          "A group of candidates debating on stage."
         ],
         "answer": 1,
-        "explanation": "Interviews assess overall capabilities, problem-solving, and communication, moving beyond paper credentials."
+        "explanation": "Panel interviews feature multiple evaluators assessing a candidate from HR, technical, and management viewpoints."
       },
       {
-        "question": "Structured interviews differ from unstructured ones by:",
+        "question": "Which of the following is evaluated in a job interview beyond qualifications?",
         "options": [
-          "Having no rules.",
-          "Using a pre-defined set of questions asked to all candidates in the same order.",
-          "Allowing candidates to ask all the questions.",
-          "Taking place only in formal boardrooms."
+          "Personal wealth.",
+          "Cultural fit, attitude, active listening, and soft skills.",
+          "The speed of answering without thinking.",
+          "The number of certificates carried."
         ],
         "answer": 1,
-        "explanation": "Structured interviews ensure consistency, fairness, and objective comparison across candidates."
+        "explanation": " recruiters focus heavily on soft skills and attitude to determine if a candidate will work productively inside the team culture."
       }
     ]
   },
@@ -2546,44 +2546,44 @@ const lecturesData = [
     "title": "Planning and Preparation: Part-1",
     "youtubeId": "",
     "objectives": [
-      "Learn preparation steps before walking into an interview room.",
-      "Explore company research techniques (products, leadership, values).",
-      "Understand professional attire and physical grooming standards."
+      "Detail pre-interview checklists and initial planning steps.",
+      "Explore company research parameters including values and products.",
+      "Understand professional dress and grooming standards."
     ],
-    "notes": "\n        <div class=\"space-y-6\">\n          <div class=\"border-l-4 border-amber-500 pl-4\">\n            <h3 class=\"text-xl font-bold text-slate-800\">INTERVIEW PLANNING & ATTITUDE</h3>\n            <p class=\"text-sm text-slate-500 mt-1\">Aligning preparation and presence for job selection.</p>\n          </div>\n\n          <div class=\"bg-white p-6 rounded-2xl border border-slate-200 space-y-4\">\n            <h4 class=\"font-bold text-slate-800 text-sm\">Pre-Interview Checklist</h4>\n            <ul class=\"space-y-2 text-xs text-slate-655\">\n              <li>🔍 <strong>Company Research:</strong> Study the company's website, products, recent news, and values.</li>\n              <li>👔 <strong>Attire Preparation:</strong> Select clean, formal clothing (suit, neutral shirt, polished shoes).</li>\n              <li>📁 <strong>Document Organization:</strong> Carry multiple copies of your resume, certificates, and references in a clean folder.</li>\n            </ul>\n          </div>\n        </div>\n      ",
+    "notes": "\n      <div class=\"space-y-6\">\n        <div class=\"border-l-4 border-amber-500 pl-4\">\n          <h3 class=\"text-xl font-bold text-slate-808\">PRE-INTERVIEW MAPPING</h3>\n          <p class=\"text-xs text-slate-500 mt-1\">Aligning preparation, information, and personal presentation.</p>\n        </div>\n\n        <div class=\"bg-white p-6 rounded-2xl border border-slate-200 space-y-4\">\n          <h4 class=\"font-bold text-slate-800 text-sm\"><i class=\"bi bi-clipboard-check-fill text-amber-600\"></i> Planning Checklist</h4>\n          <ul class=\"space-y-3 text-xs text-slate-655\">\n            <li>🔍 <strong>Company Research:</strong> Look up the firm's website, products, founders, core values, and recent news articles to demonstrate initiative.</li>\n            <li>👔 <strong>Professional Attire:</strong> Grooming and clean, ironed formal wear (neutral suit, light-colored shirt, dark shoes) make a strong positive first impression.</li>\n            <li>📁 <strong>Documentation:</strong> Keep multiple copies of your resume, academic credentials, and work samples inside a clean folder.</li>\n          </ul>\n        </div>\n      </div>\n    ",
     "quiz": [
       {
-        "question": "What should you research about a company before an interview?",
+        "question": "What is the primary benefit of researching a company before an interview?",
         "options": [
-          "Only the address of their office.",
-          "Their core business, major products, company values, and recent news.",
-          "The personal hobbies of the junior staff.",
-          "Nothing; research is unnecessary."
+          "To guess the salary amount.",
+          "To show genuine interest and align your answers with the company's goals.",
+          "To critique their color theme.",
+          "To skip answering technical questions."
         ],
         "answer": 1,
-        "explanation": "Demonstrating knowledge of the company shows genuine interest and helps align your answers to their needs."
+        "explanation": "Knowing the company's projects and culture shows your preparation and helps customize your answers to their specific needs."
       },
       {
-        "question": "What is a recommended practice for interview attire?",
+        "question": "What is the standard professional grooming advice for interviews?",
         "options": [
-          "Casual t-shirts and jeans to look relaxed.",
-          "Clean, well-pressed formal clothing in neutral colors with polished shoes.",
-          "Flashy party wear with heavy jewelry.",
-          "Bright athletic clothes."
+          "Wear casual street clothing to look relaxed.",
+          "Wear clean, well-pressed formal clothing in neutral tones.",
+          "Use loud, bright party wear.",
+          "Wear athletic sports clothing."
         ],
         "answer": 1,
-        "explanation": "Formal clothing projects professionalism and respect for the company's interview process."
+        "explanation": "Formal clothing projects professional respect and seriousness toward the company and selection process."
       },
       {
-        "question": "How should you organize your documents when going for an interview?",
+        "question": "How should interview documents be carried?",
         "options": [
-          "Fold them in your pockets.",
-          "Place multiple clean copies of your resume and certificates inside a neat folder.",
-          "Send them via email right during the meeting.",
-          "Carry them loose in your hands."
+          "Folded inside pockets.",
+          "Organized neatly inside a clean, professional folder.",
+          "Sent as a file link on your phone screen.",
+          "Carried loose in your hands."
         ],
         "answer": 1,
-        "explanation": "A neat folder protects documents and demonstrates organization and preparation."
+        "explanation": "A neat file folder protects documents and signals that the candidate is structured and organized."
       }
     ]
   },
@@ -2593,44 +2593,44 @@ const lecturesData = [
     "title": "Planning and Preparation: Part II",
     "youtubeId": "",
     "objectives": [
-      "Understand the difference between a Resume, CV, and Bio-data.",
-      "Analyze the structural blocks of a standard professional resume.",
-      "Learn editing, formatting, and action-verb phrasing rules."
+      "Manage physiological stage nervousness and interview anxiety.",
+      "Understand body language, hand movements, and posture guidelines during interviews.",
+      "Learn techniques to maintain eye contact and calm speech rates."
     ],
-    "notes": "\n        <div class=\"space-y-6\">\n          <div class=\"border-l-4 border-amber-500 pl-4\">\n            <h3 class=\"text-xl font-bold text-slate-805\">RÉSUMÉ ARCHITECTURE</h3>\n            <p class=\"text-xs text-slate-500 mt-1\">Drafting high-impact resumes to pass recruiter screenings.</p>\n          </div>\n\n          <div class=\"bg-amber-50/50 p-6 rounded-2xl border border-amber-100/50 text-xs space-y-4\">\n            <h4 class=\"font-bold text-amber-900 text-sm\">Key Resume Sections</h4>\n            <p>• <strong>Contact Details:</strong> Professional email, phone number, LinkedIn link. (No personal photos unless requested).</p>\n            <p>• <strong>Professional Summary:</strong> A 2-3 sentence overview of skills and career goals.</p>\n            <p>• <strong>Education:</strong> Degrees in reverse chronological order (latest first) with GPA/Scores.</p>\n            <p>• <strong>Projects & Experience:</strong> Tasks described using strong action verbs (e.g. *Designed, Managed, Integrated*).</p>\n          </div>\n        </div>\n      ",
+    "notes": "\n      <div class=\"space-y-6\">\n        <div class=\"border-l-4 border-amber-500 pl-4\">\n          <h3 class=\"text-xl font-bold text-slate-808\">INTERVIEW STAGE CONTROL</h3>\n          <p class=\"text-xs text-slate-500 mt-1\">Controlling body language and managing nervousness during the session.</p>\n        </div>\n\n        <div class=\"bg-slate-900 rounded-2xl p-6 text-white space-y-4\">\n          <h4 class=\"text-amber-500 font-bold text-sm\"><i class=\"bi bi-shield-check\"></i> Presence & Body Language</h4>\n          <ul class=\"space-y-2 text-xs text-slate-300\">\n            <li>• <strong>Posture:</strong> Sit straight, lean slightly forward to show engagement. Avoid slouching.</li>\n            <li>• <strong>Gestures:</strong> Use open hand movements to support points. Avoid nervous drumming or crossing arms.</li>\n            <li>• <strong>Eye Contact:</strong> Maintain polite, non-intimidating eye contact with the speaking interviewer.</li>\n            <li>• <strong>Rate of Speech:</strong> Pause briefly before answering, speak slowly, and stay calm.</li>\n          </ul>\n        </div>\n      </div>\n    ",
     "quiz": [
       {
-        "question": "How should academic credentials be listed on a resume?",
+        "question": "What does slouching back in the chair during an interview signal?",
         "options": [
-          "In alphabetical order.",
-          "In reverse chronological order (latest degree first).",
-          "In order of school names.",
-          "Starting from primary school."
+          "High confidence.",
+          "Lack of interest, poor posture, or lack of professionalism.",
+          "Technical proficiency.",
+          "Respect for the interviewer."
         ],
         "answer": 1,
-        "explanation": "Reverse chronological order highlights your most recent and relevant educational accomplishments first."
+        "explanation": "Slouching indicates disinterest or low energy, whereas sitting straight and leaning slightly forward signals alert engagement."
       },
       {
-        "question": "Which of the following contains the best phrasing for describing a project task?",
+        "question": "How should a candidate handle nervousness during the session?",
         "options": [
-          "Was responsible for making a database.",
-          "Designed and implemented a relational SQL database, improving query speed by 20%.",
-          "I did database work.",
-          "Database was made by me."
+          "Answer questions as fast as possible to get finished.",
+          "Take a deep breath, pause briefly to frame the answer, and speak at a steady pace.",
+          "Avoid looking at the interviewer.",
+          "Tap your fingers on the desk."
         ],
         "answer": 1,
-        "explanation": "Using action verbs and quantifying results makes accomplishments clear and impressive to recruiters."
+        "explanation": "Taking deep breaths and pausing helps calm adrenaline spikes, allowing clear and structured answers."
       },
       {
-        "question": "What is a key difference between a Resume and a CV (Curriculum Vitae)?",
+        "question": "What is the role of eye contact during an interview?",
         "options": [
-          "A Resume is much longer than a CV.",
-          "A Resume is a concise 1-2 page summary of skills; a CV is a detailed, multi-page record of academic and professional history.",
-          "A CV is only used for casual jobs.",
-          "There is no difference between them."
+          "Stare aggressively at the panel without blinking.",
+          "Maintain steady, friendly eye contact to build rapport and show honesty.",
+          "Look exclusively at the floor.",
+          "Look at the clock."
         ],
         "answer": 1,
-        "explanation": "Resumes are concise summaries for corporate applications; CVs are detailed records used primarily in academia and research."
+        "explanation": "Steady eye contact signals honesty and engagement, supporting connection and trust."
       }
     ]
   },
@@ -2640,44 +2640,44 @@ const lecturesData = [
     "title": "Drafting an Effective Resume",
     "youtubeId": "",
     "objectives": [
-      "Learn strategies for answering common HR and behavioral questions.",
-      "Understand the STAR method for behavioral answers.",
-      "Explore interview follow-up protocols and thank-you notes."
+      "Distinguish between a Resume, CV, and Bio-data.",
+      "Analyze structural blocks of a standard professional resume.",
+      "Learn phrasing rules using action verbs and quantifiable results."
     ],
-    "notes": "\n        <div class=\"space-y-6\">\n          <div class=\"border-l-4 border-amber-500 pl-4\">\n            <h3 class=\"text-xl font-bold text-slate-800\">STAR FRAMEWORK FOR BEHAVIORAL ANSWERS</h3>\n            <p class=\"text-sm text-slate-500 mt-1\">Answering situational questions with structure and data.</p>\n          </div>\n\n          <div class=\"bg-white p-6 rounded-2xl border border-slate-200 text-xs\">\n            <h4 class=\"font-bold text-slate-850 text-sm mb-3\">The STAR Method</h4>\n            <ul class=\"space-y-3 text-slate-655\">\n              <li>⭐ <strong>S - Situation:</strong> Describe the background context or scenario you faced.</li>\n              <li>⭐ <strong>T - Task:</strong> Outline the specific challenge or responsibility you had to address.</li>\n              <li>⭐ <strong>A - Action:</strong> Explain the exact steps *you* took to resolve the challenge.</li>\n              <li>⭐ <strong>R - Result:</strong> Detail the final positive outcome, quantified with data if possible.</li>\n            </ul>\n          </div>\n        </div>\n      ",
+    "notes": "\n      <div class=\"space-y-6\">\n        <div class=\"border-l-4 border-amber-500 pl-4\">\n          <h3 class=\"text-xl font-bold text-slate-808\">RÉSUMÉ WRITING STANDARDS</h3>\n          <p class=\"text-xs text-slate-500 mt-1\">Structuring high-impact resumes that pass recruiter screenings.</p>\n        </div>\n\n        <div class=\"grid md:grid-cols-2 gap-6 text-xs text-slate-700\">\n          <div class=\"bg-white p-5 rounded-xl border border-slate-200 space-y-2\">\n            <h4 class=\"font-bold text-amber-800 text-xs\">Document Distinctions</h4>\n            <p class=\"leading-relaxed\">\n              • <strong>Resume:</strong> A concise 1-2 page summary of skills and education tailored for corporate jobs.<br>\n              • <strong>CV (Curriculum Vitae):</strong> A detailed, multi-page record of academic history, publications, and honors.<br>\n              • <strong>Bio-data:</strong> A listing of personal data (height, age, family details), used primarily in administrative or matrimonial contexts.\n            </p>\n          </div>\n          <div class=\"bg-slate-900 text-white p-5 rounded-xl border border-slate-700 space-y-2\">\n            <h4 class=\"font-bold text-amber-500 text-xs\">Structural Sections</h4>\n            <p class=\"leading-relaxed text-slate-300\">\n              • <strong>Education:</strong> Listed in reverse chronological order (latest degree first).<br>\n              • <strong>Action Verbs:</strong> Phrasing project tasks with strong verbs (*Designed, Optimized, Collaborated*) and quantifying achievements (e.g. *improved speed by 25%*).\n            </p>\n          </div>\n        </div>\n      </div>\n    ",
     "quiz": [
       {
-        "question": "What does the 'A' in the STAR behavioral interview method stand for?",
+        "question": "How should credentials and jobs be ordered on a professional resume?",
         "options": [
-          "Accountability",
-          "Action",
-          "Analysis",
-          "Answer"
+          "Alphabetical order.",
+          "Reverse chronological order (most recent first).",
+          "By salary value.",
+          "In order of school distance."
         ],
         "answer": 1,
-        "explanation": "A stands for Action—the specific steps you took to address the situation and complete the task."
+        "explanation": "Listing items with the most recent first showcases your highest capabilities and current accomplishments immediately."
       },
       {
-        "question": "When asked about a weakness during an interview, how should you respond?",
+        "question": "What is a Resume primarily used for?",
         "options": [
-          "State that you have no weaknesses.",
-          "Share a genuine professional weakness and explain the steps you are taking to overcome it.",
-          "Mention a personal weakness unrelated to work, like chocolate.",
-          "Complain about previous employers."
+          "Applying for academic research fellowships.",
+          "Providing a concise summary of skills and experience for corporate jobs.",
+          "Matrimonial profiles.",
+          "Documenting medical histories."
         ],
         "answer": 1,
-        "explanation": "Sharing a weakness and showing active steps to improve demonstrates self-awareness and a growth mindset."
+        "explanation": "Resumes are concise 1-2 page marketing summaries customized for job applications."
       },
       {
-        "question": "What is a recommended action within 24 hours after an interview?",
+        "question": "Which of the following is the best way to write a project achievement?",
         "options": [
-          "Call the interviewer repeatedly.",
-          "Send a polite, professional thank-you email expressing appreciation for their time.",
-          "Post on social media about the interview questions.",
-          "Apply to 50 more jobs at the same firm."
+          "Worked on database management.",
+          "Designed a new SQL database system, reducing query latency by 15%.",
+          "A database was set up by me.",
+          "Responsible for sql work."
         ],
         "answer": 1,
-        "explanation": "A brief thank-you note projects good manners, enthusiasm, and reinforces your interest in the position."
+        "explanation": "Using a strong action verb ('Designed') and quantifying the result ('reducing query latency by 15%') makes accomplishments impactful."
       }
     ]
   },
@@ -2687,44 +2687,44 @@ const lecturesData = [
     "title": "Facing Job Interviews: Part- I",
     "youtubeId": "",
     "objectives": [
-      "Define Emotional Intelligence (EQ) and its role in career success.",
-      "Analyze Daniel Goleman's five pillars of EQ.",
-      "Learn techniques to handle criticism and conflict constructively."
+      "Learn strategies for answering common HR and behavioral questions.",
+      "Understand the STAR method for structuring situational answers.",
+      "Explore post-interview follow-up etiquette."
     ],
-    "notes": "\n        <div class=\"space-y-6\">\n          <div class=\"border-l-4 border-amber-500 pl-4\">\n            <h3 class=\"text-xl font-bold text-slate-800\">EMOTIONAL INTELLIGENCE (EQ)</h3>\n            <p class=\"text-sm text-slate-500 mt-1\">Managing personal emotions and building workplace rapport.</p>\n          </div>\n\n          <div class=\"bg-slate-900 text-white p-6 rounded-2xl text-xs space-y-4\">\n            <h4 class=\"font-bold text-amber-500\">Daniel Goleman's Five Pillars of EQ</h4>\n            <div class=\"grid md:grid-cols-5 gap-4 text-[10px] text-slate-300 text-center\">\n              <div class=\"p-3 bg-slate-800 rounded-xl\">\n                <strong>1. Self-Awareness</strong>\n              </div>\n              <div class=\"p-3 bg-slate-800 rounded-xl\">\n                <strong>2. Self-Regulation</strong>\n              </div>\n              <div class=\"p-3 bg-slate-800 rounded-xl\">\n                <strong>3. Motivation</strong>\n              </div>\n              <div class=\"p-3 bg-slate-800 rounded-xl\">\n                <strong>4. Empathy</strong>\n              </div>\n              <div class=\"p-3 bg-slate-800 rounded-xl\">\n                <strong>5. Social Skills</strong>\n              </div>\n            </div>\n          </div>\n        </div>\n      ",
+    "notes": "\n      <div class=\"space-y-6\">\n        <div class=\"border-l-4 border-amber-500 pl-4\">\n          <h3 class=\"text-xl font-bold text-slate-808\">BEHAVIORAL STAR METHODOLOGY</h3>\n          <p class=\"text-xs text-slate-500 mt-1\">Structuring answers to situational and behavioral questions.</p>\n        </div>\n\n        <div class=\"bg-amber-50/50 p-6 rounded-2xl border border-amber-100/50 text-xs space-y-3\">\n          <h4 class=\"font-bold text-amber-905 text-sm\">The STAR Technique</h4>\n          <p>• <strong>S - Situation:</strong> Describe the context or conflict you faced.</p>\n          <p>• <strong>T - Task:</strong> State the specific target or duty you had to address.</p>\n          <p>• <strong>A - Action:</strong> Describe the exact steps <em>you</em> took to resolve the problem.</p>\n          <p>• <strong>R - Result:</strong> Share the positive, measurable outcome achieved.</p>\n        </div>\n      </div>\n    ",
     "quiz": [
       {
-        "question": "Who developed the five-pillar model of Emotional Intelligence (EQ)?",
+        "question": "In the STAR behavioral interviewing method, what does 'A' stand for?",
         "options": [
-          "Edward Hall",
-          "Daniel Goleman",
-          "Albert Mehrabian",
-          "Douglas McGregor"
+          "Accountability",
+          "Action",
+          "Analysis",
+          "Argument"
         ],
         "answer": 1,
-        "explanation": "Daniel Goleman popularized the concept of EQ and outlined its five essential components."
+        "explanation": "A stands for Action—describing the specific actions you took to address the task and solve the problem."
       },
       {
-        "question": "Self-Regulation in EQ refers to:",
+        "question": "What is the recommended approach to answer: 'What is your greatest weakness?'",
         "options": [
-          "Controlling or redirecting disruptive impulses and thinking before acting.",
-          "Knowing your GPA score.",
-          "Instructing others on how to behave.",
-          "Supplying resources to the team."
-        ],
-        "answer": 0,
-        "explanation": "Self-regulation enables individuals to remain calm under pressure, avoiding emotional outbursts."
-      },
-      {
-        "question": "Why is empathy crucial for workplace leadership?",
-        "options": [
-          "It helps in making decisions faster.",
-          "It allows leaders to understand and respect employees' feelings, boosting trust and motivation.",
-          "It makes leaders popular.",
-          "It reduces the need for salary payouts."
+          "Saying you have no weaknesses.",
+          "Stating a real professional weakness and explaining the active steps you are taking to improve it.",
+          "Sharing a personal detail unrelated to work.",
+          "Complaining about a previous boss."
         ],
         "answer": 1,
-        "explanation": "Empathetic leaders connect with their teams, fostering safety and reducing burnout."
+        "explanation": "Stating a weakness alongside your self-improvement steps shows self-awareness, honesty, and a growth mindset."
+      },
+      {
+        "question": "When should a thank-you note be sent after an interview?",
+        "options": [
+          "Immediately as you leave the room.",
+          "Within 24 hours of the interview.",
+          "After two weeks.",
+          "Never."
+        ],
+        "answer": 1,
+        "explanation": "Sending a polite thank-you email within 24 hours expresses gratitude and reinforces your interest in the job."
       }
     ]
   },
@@ -2734,44 +2734,44 @@ const lecturesData = [
     "title": "Facing Job Interviews: Part II",
     "youtubeId": "",
     "objectives": [
-      "Define critical thinking and distinguish it from passive learning.",
-      "Analyze cognitive biases that derail decision-making.",
-      "Learn structured frameworks for creative problem-solving."
+      "Analyze techniques for handling difficult interview questions.",
+      "Explore ethical salary negotiation strategies.",
+      "Understand professional follow-up guidelines after the session."
     ],
-    "notes": "\n        <div class=\"space-y-6\">\n          <div class=\"border-l-4 border-amber-500 pl-4\">\n            <h3 class=\"text-xl font-bold text-slate-805\">CRITICAL COGNITION</h3>\n            <p class=\"text-xs text-slate-500 mt-1\">Analyzing facts objectively to make rational decisions.</p>\n          </div>\n\n          <div class=\"bg-amber-50/50 p-6 rounded-2xl border border-amber-100/50 text-xs space-y-3\">\n            <h4 class=\"font-bold text-amber-900 text-sm\">Cognitive Barriers to Avoid</h4>\n            <p>• <strong>Confirmation Bias:</strong> Only looking for facts that prove your pre-existing beliefs while ignoring counter-evidence.</p>\n            <p>• <strong>Bandwagon Effect:</strong> Adopting an opinion solely because the majority of the team supports it.</p>\n            <p>• <strong>Emotional Reasoning:</strong> Making critical business choices based on gut feelings rather than objective data.</p>\n          </div>\n        </div>\n      ",
+    "notes": "\n      <div class=\"space-y-6\">\n        <div class=\"border-l-4 border-amber-500 pl-4\">\n          <h3 class=\"text-xl font-bold text-slate-808\">NEGOTIATIONS & FOLLOW-UPS</h3>\n          <p class=\"text-xs text-slate-500 mt-1\">Navigating salary discussions and professional follow-up protocols.</p>\n        </div>\n\n        <div class=\"bg-white p-6 rounded-2xl border border-slate-200 text-xs space-y-3\">\n          <h4 class=\"font-bold text-slate-800 text-sm\">Negotiation Principles</h4>\n          <p>• <strong>Know Your Market Value:</strong> Research average salaries for the role, location, and experience level beforehand.</p>\n          <p>• <strong>Focus on Value Add:</strong> Connect your salary expectations to the value and skills you bring to the firm.</p>\n          <p>• <strong>Stay Professional:</strong> Express enthusiasm and frame negotiation as a collaborative win-win discussion.</p>\n        </div>\n      </div>\n    ",
     "quiz": [
       {
-        "question": "What is Confirmation Bias?",
+        "question": "What is the best approach to salary negotiation?",
         "options": [
-          "Confirming a meeting schedule.",
-          "The tendency to search for, interpret, and recall information in a way that confirms one's beliefs.",
-          "A database backup procedure.",
-          "Agreeing with all team decisions."
+          "Demand a high salary aggressively without justification.",
+          "Research market averages and base expectations on the value you bring.",
+          "Refuse to discuss salary completely.",
+          "Accept the first offer immediately without discussion."
         ],
         "answer": 1,
-        "explanation": "Confirmation bias filters out opposing data, leading to flawed decision-making."
+        "explanation": "Negotiating based on market research and value-add shows professionalism and leads to fair compensation."
       },
       {
-        "question": "Critical thinking requires which of the following practices?",
+        "question": "If you do not know the answer to an interview question, you should:",
         "options": [
-          "Accepting all assumptions immediately.",
-          "Questioning assumptions, evaluating evidence, and analyzing arguments objectively.",
-          "Following instructions blindly.",
-          "Avoiding all challenging discussions."
+          "Make up an answer to avoid looking unknowledgeable.",
+          "Admit politely that you do not know the answer, and offer to research it.",
+          "Remain completely silent.",
+          "Ask the interviewer why they are testing you on that."
         ],
         "answer": 1,
-        "explanation": "Critical thinking is an active process of questioning status quo views and verifying facts."
+        "explanation": "Honesty is valued; admitting you do not know shows integrity, and offering to follow up demonstrates initiative."
       },
       {
-        "question": "What does the Bandwagon Effect cause in teams?",
+        "question": "What is the recommended delay before sending a follow-up inquiry about the selection decision?",
         "options": [
-          "Improved creative conflict.",
-          "Groupthink, where members agree to maintain harmony rather than voice critical concerns.",
-          "Faster code deployment.",
-          "Better documentation."
+          "1 day.",
+          "7 to 10 days, or after the date specified by the HR team.",
+          "1 month.",
+          "Never follow up."
         ],
         "answer": 1,
-        "explanation": "The bandwagon effect suppresses minority viewpoints, reducing diverse ideas and solutions."
+        "explanation": "Waiting 1-2 weeks shows patience and respect for the company's internal selection timeline."
       }
     ]
   },
@@ -2781,44 +2781,44 @@ const lecturesData = [
     "title": "Emotional Intelligence and Critical Thinking",
     "youtubeId": "",
     "objectives": [
-      "Analyze common grammar errors in business emails and correspondence.",
-      "Learn rules of active vs. passive voice in professional contexts.",
-      "Explore clarity, conciseness, and tone control in written reports."
+      "Understand Daniel Goleman's 5 pillars of Emotional Intelligence (EQ).",
+      "Analyze cognitive biases (Confirmation Bias, Bandwagon Effect) in decision-making.",
+      "Explore structured critical thinking and creative problem-solving."
     ],
-    "notes": "\n        <div class=\"space-y-6\">\n          <div class=\"border-l-4 border-amber-500 pl-4\">\n            <h3 class=\"text-xl font-bold text-slate-800\">PROFESSIONAL GRAMMAR & SYNTAX</h3>\n            <p class=\"text-sm text-slate-500 mt-1\">Writing error-free, concise, and clear business emails.</p>\n          </div>\n\n          <div class=\"bg-white p-6 rounded-2xl border border-slate-200 text-xs space-y-4\">\n            <h4 class=\"font-bold text-slate-850 text-sm\">Active vs. Passive Voice</h4>\n            <p class=\"text-slate-655 leading-relaxed\">\n              Use the <strong>Active Voice</strong> for directness and accountability. Use the <strong>Passive Voice</strong> when describing processes or when you want to avoid pointing blame directly:\n            </p>\n            <div class=\"grid md:grid-cols-2 gap-4 text-xxs\">\n              <div class=\"p-3 bg-slate-50 rounded-xl\">\n                <span class=\"font-bold text-amber-600 block mb-1\">Active (Direct)</span>\n                <span class=\"italic\">\"We made an error in the quarterly calculation.\"</span>\n              </div>\n              <div class=\"p-3 bg-slate-50 rounded-xl\">\n                <span class=\"font-bold text-amber-600 block mb-1\">Passive (Softened)</span>\n                <span class=\"italic\">\"An error was made in the quarterly calculation.\"</span>\n              </div>\n            </div>\n          </div>\n        </div>\n      ",
+    "notes": "\n      <div class=\"space-y-6\">\n        <div class=\"border-l-4 border-amber-500 pl-4\">\n          <h3 class=\"text-xl font-bold text-slate-808\">EMOTION & COGNITION</h3>\n          <p class=\"text-xs text-slate-500 mt-1\">Developing behavioral EQ and critical reasoning skills.</p>\n        </div>\n\n        <div class=\"bg-slate-900 rounded-2xl p-6 text-white space-y-4\">\n          <h4 class=\"text-amber-500 font-bold text-sm\"><i class=\"bi bi-lightbulb-fill\"></i> Goleman's 5 EQ Pillars</h4>\n          <div class=\"grid grid-cols-5 gap-2 text-[10px] text-slate-300 text-center\">\n            <div class=\"p-2 bg-slate-800 rounded-lg\">Self-Awareness</div>\n            <div class=\"p-2 bg-slate-800 rounded-lg\">Self-Regulation</div>\n            <div class=\"p-2 bg-slate-800 rounded-lg\">Motivation</div>\n            <div class=\"p-2 bg-slate-800 rounded-lg\">Empathy</div>\n            <div class=\"p-2 bg-slate-800 rounded-lg\">Social Skills</div>\n          </div>\n          <h4 class=\"text-amber-500 font-bold text-sm pt-2\"><i class=\"bi bi-exclamation-triangle-fill\"></i> Cognitive Biases</h4>\n          <p class=\"text-xxs text-slate-350 leading-relaxed\">\n            • <strong>Confirmation Bias:</strong> Favoring information that confirms preexisting beliefs.<br>\n            • <strong>Bandwagon Effect:</strong> Adopting viewpoints solely because they are held by the majority, causing groupthink.\n          </p>\n        </div>\n      </div>\n    ",
     "quiz": [
       {
-        "question": "When is using the Passive Voice preferred in corporate emails?",
+        "question": "Which of the following is one of Daniel Goleman's five pillars of EQ?",
         "options": [
-          "When you want to state accomplishments directly.",
-          "When describing a technical process, or when you want to de-emphasize blame.",
-          "Always; active voice is inappropriate.",
-          "Only in subject lines."
+          "Financial Acumen",
+          "Self-Regulation",
+          "Public Speaking Speed",
+          "Technical Certification"
         ],
         "answer": 1,
-        "explanation": "Passive voice softens negative statements (e.g., 'An error was made' instead of 'You made an error')."
+        "explanation": "Self-regulation (managing emotions and behavior under pressure) is a core component of Emotional Intelligence."
       },
       {
-        "question": "Which sentence displays the best professional conciseness?",
+        "question": "What does Confirmation Bias refer to?",
         "options": [
-          "I am writing this email to let you know that the meeting is at 5 PM.",
-          "The meeting is scheduled for 5 PM.",
-          "I want to announce that we will meet at 5 PM this evening.",
-          "We are going to have a meeting that takes place at 5 PM."
+          "Confirming a flight booking.",
+          "Recalling and interpreting facts in a way that confirms your preexisting beliefs.",
+          "Verifying a backup dataset.",
+          "Adopting the majority opinion in a group."
         ],
         "answer": 1,
-        "explanation": "Concise writing delivers the necessary information in as few words as possible without losing politeness."
+        "explanation": "Confirmation bias is a cognitive shortcut where we filter out opposing facts in favor of data that confirms our beliefs."
       },
       {
-        "question": "What is a common error in subject lines for business emails?",
+        "question": "What is a negative outcome of the Bandwagon Effect in workplace meetings?",
         "options": [
-          "Being specific and concise.",
-          "Being vague, using all lowercase, or leaving the subject empty.",
-          "Capitalizing the first letter.",
-          "Using professional abbreviations."
+          "Increased creativity.",
+          "Groupthink, where team members agree silently to maintain harmony.",
+          "Faster project deployments.",
+          "More structured documentation."
         ],
         "answer": 1,
-        "explanation": "A clear, descriptive subject line helps recipients prioritize and organize their inbox."
+        "explanation": "The bandwagon effect encourages group conformity, suppressing independent viewpoints and rational critical analysis."
       }
     ]
   },
@@ -2828,44 +2828,44 @@ const lecturesData = [
     "title": "Applied Grammar",
     "youtubeId": "",
     "objectives": [
-      "Synthesize key learnings from all 12 weeks of NPTEL Soft Skills.",
-      "Review final proctored exam tips and assignment weights.",
-      "Re-emphasize self-awareness and continuous soft-skill development."
+      "Review active vs. passive voice guidelines in business writing.",
+      "Understand NPTEL certification exam details, fees, and pass criteria.",
+      "Analyze the double passing threshold required for certifications."
     ],
-    "notes": "\n        <div class=\"space-y-6\">\n          <div class=\"border-l-4 border-amber-500 pl-4\">\n            <h3 class=\"text-xl font-bold text-slate-805\">EXAM MASTERY & RECAP</h3>\n            <p class=\"text-xs text-slate-500 mt-1\">Final preparations for the NPTEL Certification Exam.</p>\n          </div>\n\n          <div class=\"bg-amber-50/50 p-6 rounded-2xl border border-amber-100/50 text-xs space-y-4\">\n            <h4 class=\"font-bold text-amber-900 text-sm\">Grading Synthesis Recall</h4>\n            <p>• <strong>Assignments Weight:</strong> 25% (Best 8 out of 12 assignments calculated).</p>\n            <p>• <strong>Proctored Exam Weight:</strong> 75% (Covers multiple-choice and short technical questions).</p>\n            <p>• <strong>Passing Threshold:</strong> Minimum 10/25 in assignments AND 30/75 in the proctored exam.</p>\n          </div>\n        </div>\n      ",
+    "notes": "\n      <div class=\"space-y-6\">\n        <div class=\"border-l-4 border-amber-500 pl-4\">\n          <h3 class=\"text-xl font-bold text-slate-808\">GRAMMAR RULES & NPTEL EXAM MASTERY</h3>\n          <p class=\"text-xs text-slate-500 mt-1\">Synthesizing writing mechanics and proctored certification rules.</p>\n        </div>\n\n        <div class=\"bg-white p-6 rounded-2xl border border-slate-200 text-xs space-y-4\">\n          <h4 class=\"font-bold text-slate-800 text-sm\"><i class=\"bi bi-card-checklist\"></i> NPTEL Certification Rules Summary</h4>\n          <p class=\"text-slate-655\">\n            • <strong>Enrollment:</strong> Learning is completely free. The proctored in-person exam is optional for a fee of <strong>Rs 1000/-</strong>.<br>\n            • <strong>Exam Date:</strong> October 16, 2026 (9am-12pm or 2pm-5pm).<br>\n            • <strong>Grading Scheme:</strong> Final Score = Assignment Score (25%) + Exam Score (75%).<br>\n            • <strong>Assignment Score:</strong> 25% of the average of the <strong>best 8 assignments</strong> out of the total 12 assignments given.<br>\n            • <strong>Exam Score:</strong> 75% of the proctored exam score (out of 100).<br>\n            • <strong>Passing Condition:</strong> You must score <strong>Average Assignment Score &ge; 10/25</strong> AND <strong>Exam Score &ge; 30/75</strong>. If either is not met, you will not get a certificate even if your total score &ge; 40/100.<br>\n            • <strong>E-Certificate:</strong> Only e-certificates are dispatched (logos of NPTEL & IIT Roorkee, e-verifiable at nptel.ac.in/noc). Hard copies are not sent.\n          </p>\n        </div>\n      </div>\n    ",
     "quiz": [
       {
-        "question": "What is the weight distribution for the final NPTEL certification score?",
+        "question": "What is the weight of assignments in the final NPTEL certification score?",
         "options": [
-          "50% assignments, 50% proctored exam",
-          "25% assignments, 75% proctored exam",
-          "100% proctored exam only",
-          "40% assignments, 60% proctored exam"
+          "10%",
+          "25%",
+          "50%",
+          "75%"
         ],
         "answer": 1,
-        "explanation": "NPTEL calculations take 25% of the weekly assignments average and 75% of the final proctored exam score."
+        "explanation": "Assignments contribute 25% of the final certified grade, calculated using the best 8 out of 12 weekly scores."
       },
       {
-        "question": "What is the minimum passing score required in the proctored exam for certification?",
+        "question": "What is the double passing threshold required to get a certificate?",
         "options": [
-          "10 out of 75",
-          "30 out of 75",
-          "50 out of 75",
-          "60 out of 75"
-        ],
-        "answer": 1,
-        "explanation": "To pass, you must score a minimum of 30 marks out of 75 on the final written proctored exam."
-      },
-      {
-        "question": "To continuously develop soft skills after the course, you must practice:",
-        "options": [
-          "Self-reflection, active listening, and open communication daily.",
-          "Only reading books without applying traits.",
-          "Working in isolation.",
-          "Ignoring feedback from peers."
+          "Assignment score >= 10/25 and proctored exam score >= 30/75.",
+          "Total score >= 40/100, regardless of separate scores.",
+          "Assignment score >= 15/25 and exam score >= 20/75.",
+          "No minimum score as long as exam fee is paid."
         ],
         "answer": 0,
-        "explanation": "Soft skills are behavior-oriented and can only be sustained and improved through daily practice and feedback."
+        "explanation": "NPTEL requires both assignment score to be at least 10/25 AND exam score to be at least 30/75. Failing either prevents certification."
+      },
+      {
+        "question": "When are the proctored certification exams scheduled for this session?",
+        "options": [
+          "September 1, 2026.",
+          "October 16, 2026 (Morning & Afternoon sessions).",
+          "December 12, 2026.",
+          "At the end of each week."
+        ],
+        "answer": 1,
+        "explanation": "The proctored exam date is scheduled for October 16, 2026, with morning (9am-12pm) and afternoon (2pm-5pm) slots."
       }
     ]
   }
