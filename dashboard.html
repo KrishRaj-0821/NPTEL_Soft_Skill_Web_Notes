@@ -379,8 +379,15 @@
             document.getElementById('activeLectureNum').innerText = `Lecture ${data.id}`;
             document.getElementById('activeLectureTitle').innerText = data.title;
 
-            // Load Video using specific YouTube ID
-            document.getElementById('youtubePlayer').src = `https://www.youtube.com/embed/${data.youtubeId}?rel=0`;
+            // Load Video using specific YouTube ID or fallback to playlist index
+            let videoSrc = "";
+            if (data.youtubeId && data.youtubeId.length > 5) {
+                videoSrc = `https://www.youtube.com/embed/${data.youtubeId}?rel=0`;
+            } else {
+                const playlistId = 'PLHy689C3sgesT1MEBrFYu1lRwEm19fCK6';
+                videoSrc = `https://www.youtube.com/embed/videoseries?list=${playlistId}&index=${data.id - 1}`;
+            }
+            document.getElementById('youtubePlayer').src = videoSrc;
 
             // Load Notes
             document.getElementById('notesViewer').innerHTML = data.notes;
