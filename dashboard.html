@@ -379,8 +379,9 @@
             document.getElementById('activeLectureNum').innerText = `Lecture ${data.id}`;
             document.getElementById('activeLectureTitle').innerText = data.title;
 
-            // Load Video
-            document.getElementById('youtubePlayer').src = `https://www.youtube.com/embed/${data.youtubeId}?rel=0`;
+            // Load Video using official Playlist ID and index
+            const playlistId = 'PLHy689C3sgesT1MEBrFYu1lRwEm19fCK6';
+            document.getElementById('youtubePlayer').src = `https://www.youtube.com/embed/videoseries?list=${playlistId}&index=${data.id}`;
 
             // Load Notes
             document.getElementById('notesViewer').innerHTML = data.notes;
